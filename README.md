@@ -1,7 +1,12 @@
 # NavQ95
 Storage for NavQ95 V2 hardware design items.
 NavQ95 includes the following differentiating features:
-- Wide input power 
+- Wide input power up to 52(60V peak)
+- SPE network switch module with 2x1000BaseT1 and 6x100BaseT1 (Two wire/single pair automotive ethernet)
+- 2x PCIe. M.2 B and M to support accelerators, NVME and Radio modems/cellular.
+- Modular IO including typical IMU components found in state of the art Drones.
+- Linux Foundation Dronecode compliant interfaces and connectors.
+- Low cost modular adapter boards for cameras or serdes.
 
 See `NavQ95/Mr Solutions MR-NavQ95-RevB description slides (Public).pdf` also for a short overview presentation.
 
