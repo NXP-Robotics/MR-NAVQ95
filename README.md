@@ -1,5 +1,5 @@
 # NavQ95
-Storage for NavQ95 V2 hardware design items.
+This repository for sharing of NavQ95 V2 "B" hardware design items.
 NavQ95 includes the following differentiating features:
 - Wide input power up to 52(60V peak)
 - SPE network switch module with 2x1000BaseT1 and 6x100BaseT1 (Two wire/single pair automotive ethernet)
