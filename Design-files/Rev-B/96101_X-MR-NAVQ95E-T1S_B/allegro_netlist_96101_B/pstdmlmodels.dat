@@ -1,0 +1,19 @@
+("allegro_netlist\\pstdmlmodels.dat" 
+ (PackagedDevice 
+  (DEFAULT_CAPACITOR_100000pF_2_1 
+   (ESpice ".subckt DEFAULT_CAPACITOR_100000pF_2_1 1 2
+C1 1 2 1e-07
+.ends DEFAULT_CAPACITOR_100000pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_CAPACITOR_1e+06pF_2_1" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_1e+06pF_2_1 1 2
+C1 1 2 1e-06
+.ends DEFAULT_CAPACITOR_1e+06pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) ) 
+ (LibraryVersion 136.2 ) ) 
