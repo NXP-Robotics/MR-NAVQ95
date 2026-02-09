@@ -16,3 +16,15 @@ This means ROS2 main installs via `apt install ros2`.
 
 The unsupported software repo may be found here:
 https://github.com/NXP-Robotics/imx-manifest-navq95-private
+
+## M7 core software
+A range of software platforms can be deployed on the M7 core. The following software platforms have been prepared for use with the MR‑NAVQ95:
+- Zephyr
+  - https://www.zephyrproject.org/
+- Cognipilot Cerebri (Zephyr based)
+  - https://cognipilot.org/
+- NuttX
+  - https://nuttx.apache.org/
+  - https://nuttx.apache.org/docs/latest/platforms/arm/imx9/boards/mr-navq95b/index.html
+- PX4 Autopilot (NuttX based)
+  - https://px4.io/
