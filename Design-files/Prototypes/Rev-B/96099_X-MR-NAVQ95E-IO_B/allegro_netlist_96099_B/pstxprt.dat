@@ -1,0 +1,3200 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 23.1.0 d001Jan-20-2026 at 18:36:28 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SCH-96099_B';
+ POST_TIME='Oct 29 2025 21:13:33';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BH1 'MOUNT_HOLE_MH236-146P_IC_0.127MM_280-10222_MH3.7_6':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20122439@FCL_MISC.MOUNT_HOLE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20122439@fcl_misc.\mount_hole.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20122439@fcl_misc.\mount_hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(110,1370)',
+ SECTION='';
+
+PART_NAME
+ BH2 'MOUNT_HOLE_MH236-146P_IC_0.127MM_280-10222_MH3.7_6':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20122448@FCL_MISC.MOUNT_HOLE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20122448@fcl_misc.\mount_hole.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20122448@fcl_misc.\mount_hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(160,1370)',
+ SECTION='';
+
+PART_NAME
+ BH3 'MOUNT_HOLE_MH236-146P_IC_0.127MM_280-10222_MH3.7_6':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20122457@FCL_MISC.MOUNT_HOLE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20122457@fcl_misc.\mount_hole.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20122457@fcl_misc.\mount_hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,1370)',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP_NP_CC0402_25_DISCRETE_0.55_150-79727_0.047UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20052767@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20052767@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20052767@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1320,110)',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79034_4700PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20058878@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20058878@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20058878@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1600,930)',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP_NP_CC0402_25_DISCRETE_0.55_150-79727_0.047UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059408@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059408@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059408@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1060,1060)',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP_NP_CC0402_25_DISCRETE_0.55_150-79727_0.047UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059448@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059448@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059448@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1010,1140)',
+ SECTION='';
+
+PART_NAME
+ C132 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20445584@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20445584@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20445584@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(390,360)',
+ SECTION='';
+
+PART_NAME
+ C133 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20445253@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20445253@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20445253@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(450,360)',
+ SECTION='';
+
+PART_NAME
+ C134 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386329@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386329@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386329@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(570,360)',
+ SECTION='';
+
+PART_NAME
+ C135 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20445760@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20445760@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20445760@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(330,360)',
+ SECTION='';
+
+PART_NAME
+ C136 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20545799@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20545799@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20545799@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(570,570)',
+ SECTION='';
+
+PART_NAME
+ C138 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20546184@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20546184@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20546184@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(510,460)',
+ SECTION='';
+
+PART_NAME
+ C139 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20412402@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20412402@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20412402@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1030,600)',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059515@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059515@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059515@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1010,1060)',
+ SECTION='';
+
+PART_NAME
+ C140 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79047_220PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20414512@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20414512@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20414512@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1340,600)',
+ SECTION='';
+
+PART_NAME
+ C141 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20546195@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20546195@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20546195@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(570,460)',
+ SECTION='';
+
+PART_NAME
+ C142 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20412789@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20412789@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20412789@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1080,600)',
+ SECTION='';
+
+PART_NAME
+ C143 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79047_220PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386908@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386908@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386908@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1390,600)',
+ SECTION='';
+
+PART_NAME
+ C144 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20419859@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20419859@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20419859@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1160,290)',
+ SECTION='';
+
+PART_NAME
+ C145 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20419830@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20419830@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20419830@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,390)',
+ SECTION='';
+
+PART_NAME
+ C146 'CAP_NP_CC0402_TOL0P2_DISCRETE_0.7_150-79567_2.2UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20410838@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20410838@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20410838@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1000,760)',
+ SECTION='';
+
+PART_NAME
+ C147 'CAP_NP_CC0402_TOL0P2_DISCRETE_0.7_150-79567_2.2UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20410955@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20410955@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20410955@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1000,780)',
+ SECTION='';
+
+PART_NAME
+ C148 'CAP_NP_CC0402_TOL0P2_DISCRETE_0.7_150-79567_2.2UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20411594@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20411594@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20411594@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1000,800)',
+ SECTION='';
+
+PART_NAME
+ C149 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF_10%':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387424@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387424@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387424@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(950,1060)',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79034_4700PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20303050@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20303050@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20303050@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1340,1400)',
+ SECTION='';
+
+PART_NAME
+ C150 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20406554@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20406554@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20406554@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1000,1060)',
+ SECTION='';
+
+PART_NAME
+ C151 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79220_15PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387665@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387665@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387665@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1690,980)',
+ SECTION='';
+
+PART_NAME
+ C152 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387684@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387684@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387684@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(330,120)',
+ SECTION='';
+
+PART_NAME
+ C153 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387703@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387703@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387703@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(610,120)',
+ SECTION='';
+
+PART_NAME
+ C154 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387714@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387714@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387714@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(660,120)',
+ SECTION='';
+
+PART_NAME
+ C155 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79220_15PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387725@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387725@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387725@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1640,1000)',
+ SECTION='';
+
+PART_NAME
+ C156 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79220_15PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387778@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387778@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387778@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1690,1030)',
+ SECTION='';
+
+PART_NAME
+ C157 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79220_15PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387884@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387884@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387884@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1690,1110)',
+ SECTION='';
+
+PART_NAME
+ C158 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79220_15PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387894@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387894@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387894@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1640,1130)',
+ SECTION='';
+
+PART_NAME
+ C159 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79220_15PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387917@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387917@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387917@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1690,1160)',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059998@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059998@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059998@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(180,1010)',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79040_1000PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20060555@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20060555@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20060555@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(480,1100)',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20069021@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20069021@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20069021@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(340,280)',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20069055@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20069055@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20069055@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(390,280)',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP_NP_CC0402_25_DISCRETE_0.55_150-79727_0.047UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20052777@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20052777@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20052777@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1270,190)',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20335557@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20335557@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20335557@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1270,110)',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79034_4700PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20053487@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20053487@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20053487@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1600,450)',
+ SECTION='';
+
+PART_NAME
+ C500 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20443018@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20443018@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20443018@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(510,360)',
+ SECTION='';
+
+PART_NAME
+ C514 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20351305@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20351305@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20351305@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(290,180)',
+ SECTION='';
+
+PART_NAME
+ C515 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20351818@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20351818@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20351818@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(340,180)',
+ SECTION='';
+
+PART_NAME
+ C523 'CAP_NP_CC0603_OV_DISCRETE_1_150-80120_10UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20110701@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20110701@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20110701@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(580,1010)',
+ SECTION='';
+
+PART_NAME
+ C524 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20110949@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20110949@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20110949@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,1010)',
+ SECTION='';
+
+PART_NAME
+ C526 'CAP_NP_CC0603_OV_DISCRETE_1_150-80120_10UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20111689@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20111689@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20111689@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(130,1010)',
+ SECTION='';
+
+PART_NAME
+ C527 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20142117@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20142117@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20142117@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(520,810)',
+ SECTION='';
+
+PART_NAME
+ C528 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20142264@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20142264@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20142264@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(520,730)',
+ SECTION='';
+
+PART_NAME
+ C531 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20142966@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20142966@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20142966@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(460,810)',
+ SECTION='';
+
+PART_NAME
+ C532 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20143114@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20143114@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20143114@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(460,730)',
+ SECTION='';
+
+PART_NAME
+ C533 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20144325@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20144325@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20144325@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(800,810)',
+ SECTION='';
+
+PART_NAME
+ C534 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20144495@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20144495@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20144495@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(760,730)',
+ SECTION='';
+
+PART_NAME
+ C535 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20177903@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20177903@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20177903@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(780,1160)',
+ SECTION='';
+
+PART_NAME
+ C536 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20178025@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20178025@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20178025@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(680,1160)',
+ SECTION='';
+
+PART_NAME
+ C537 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20566549@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20566549@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20566549@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1010,270)',
+ SECTION='';
+
+PART_NAME
+ C538 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20261535@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20261535@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20261535@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(770,990)',
+ SECTION='';
+
+PART_NAME
+ C544 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20375225@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20375225@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20375225@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1200,480)',
+ SECTION='';
+
+PART_NAME
+ C545 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20380200@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20380200@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20380200@fcl_capacitor.\cap_np.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1120,710)',
+ SECTION='';
+
+PART_NAME
+ C546 'CAP_NP_CC0603_OV_DISCRETE_1_150-81482_4.7UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20381943@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20381943@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20381943@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(880,570)',
+ SECTION='';
+
+PART_NAME
+ C547 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20382180@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20382180@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20382180@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(820,570)',
+ SECTION='';
+
+PART_NAME
+ C588 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79220_15PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20421735@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20421735@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20421735@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1110,320)',
+ SECTION='';
+
+PART_NAME
+ C589 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79220_15PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387566@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387566@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387566@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1110,370)',
+ SECTION='';
+
+PART_NAME
+ C590 'CAP_NP_CC0402_25_DISCRETE_0.55MM_150-79220_15PF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387556@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387556@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387556@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1290,420)',
+ SECTION='';
+
+PART_NAME
+ C591 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387392@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387392@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387392@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1290,250)',
+ SECTION='';
+
+PART_NAME
+ C592 'CAP_NP_CC0805_OV_DISCRETE_1.45MM_150-81481_22UF':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387403@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387403@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387403@fcl_capacitor.\cap_np.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1340,250)',
+ SECTION='';
+
+PART_NAME
+ C593 'CAP_NP_CC0402_25_DISCRETE_0.55_150-81416_10PF':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20428920@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20428920@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20428920@fcl_capacitor.\cap_np.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(400,1080)',
+ SECTION='';
+
+PART_NAME
+ C594 'CAP_NP_CC0402_25_DISCRETE_0.55_150-81416_10PF':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20428936@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20428936@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20428936@fcl_capacitor.\cap_np.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,1080)',
+ SECTION='';
+
+PART_NAME
+ C595 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20447315@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20447315@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20447315@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(430,1320)',
+ SECTION='';
+
+PART_NAME
+ C597 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20495529@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20495529@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20495529@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(880,1280)',
+ SECTION='';
+
+PART_NAME
+ C598 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20497742@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20497742@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20497742@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1230,1280)',
+ SECTION='';
+
+PART_NAME
+ C599 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20562487@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20562487@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20562487@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(300,710)',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP_NP_CC0402_25_DISCRETE_0.55_150-79727_0.047UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20058570@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20058570@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20058570@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1320,590)',
+ SECTION='';
+
+PART_NAME
+ C600 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20562498@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20562498@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20562498@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(360,710)',
+ SECTION='';
+
+PART_NAME
+ C601 'CAP_NP_CC0402_25_DISCRETE_0.65MM_150-81751_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20588978@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20588978@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20588978@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(150,1130)',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP_NP_CC0402_25_DISCRETE_0.55_150-79727_0.047UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20058610@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20058610@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20058610@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1270,670)',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP_NP_CC0402_25_DISCRETE_0.6MM_150-81359_1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20321823@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20321823@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20321823@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1270,590)',
+ SECTION='';
+
+PART_NAME
+ D1 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20079682@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20079682@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20079682@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(400,550)',
+ SECTION='';
+
+PART_NAME
+ D10 'ESD7104M_UDFN10_2P5X1_IC_0.55_480-78326_ESD7104':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20487489@FCL_SEMICONDUCTOR.ESD7104M.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20487489@fcl_semiconductor.\esd7104m.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20487489@fcl_semiconductor.\esd7104m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(990,690)',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_LED_0603_11MIL_IC_0.28MM_370-76572_LED_ORANGE':
+ SILK='UART1_RX';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20088698@FCL_OPTICAL.LED.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20088698@fcl_optical.\led.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20088698@fcl_optical.\led.normal\(chips)',
+ SILK='UART1_RX',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1560,590)',
+ SECTION='';
+
+PART_NAME
+ D26 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20113212@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20113212@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20113212@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1350,820)',
+ SECTION='';
+
+PART_NAME
+ D27 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20113770@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20113770@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20113770@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1390,610)',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_LED_0603_IC_0.8MM_370-76670_LED_GRN':
+ SILK='UART1_TX';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20088714@FCL_OPTICAL.LED.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20088714@fcl_optical.\led.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20088714@fcl_optical.\led.normal\(chips)',
+ SILK='UART1_TX',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1680,590)',
+ SECTION='';
+
+PART_NAME
+ D31 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20468091@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20468091@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20468091@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1360,180)',
+ SECTION='';
+
+PART_NAME
+ D32 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20115608@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20115608@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20115608@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1440,1180)',
+ SECTION='';
+
+PART_NAME
+ D33 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20116248@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20116248@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20116248@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1700,700)',
+ SECTION='';
+
+PART_NAME
+ D34 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20116361@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20116361@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20116361@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1700,220)',
+ SECTION='';
+
+PART_NAME
+ D35 'ESD7104M_UDFN10_2P5X1_IC_0.55_480-78326_ESD7104':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20486265@FCL_SEMICONDUCTOR.ESD7104M.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20486265@fcl_semiconductor.\esd7104m.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20486265@fcl_semiconductor.\esd7104m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1140,340)',
+ SECTION='';
+
+PART_NAME
+ D36 'ESD7104M_UDFN10_2P5X1_IC_0.55_480-78326_ESD7104':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20486398@FCL_SEMICONDUCTOR.ESD7104M.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20486398@fcl_semiconductor.\esd7104m.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20486398@fcl_semiconductor.\esd7104m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1140,440)',
+ SECTION='';
+
+PART_NAME
+ D37 'ESD7104M_UDFN10_2P5X1_IC_0.55_480-78326_ESD7104':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20488508@FCL_SEMICONDUCTOR.ESD7104M.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20488508@fcl_semiconductor.\esd7104m.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20488508@fcl_semiconductor.\esd7104m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(750,1080)',
+ SECTION='';
+
+PART_NAME
+ D38 'ESD7104M_UDFN10_2P5X1_IC_0.55_480-78326_ESD7104':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20579103@FCL_SEMICONDUCTOR.ESD7104M.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20579103@fcl_semiconductor.\esd7104m.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20579103@fcl_semiconductor.\esd7104m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(750,1360)',
+ SECTION='';
+
+PART_NAME
+ D39 'LED_LED_0603_IC_0.8MM_370-76671_LED_SUPER_RED':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20172222@FCL_OPTICAL.LED.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20172222@fcl_optical.\led.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20172222@fcl_optical.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(170,1190)',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_LED_0603_11MIL_IC_0.28MM_370-76572_LED_ORANGE':
+ SILK='UART2_RX';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20089291@FCL_OPTICAL.LED.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20089291@fcl_optical.\led.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20089291@fcl_optical.\led.normal\(chips)',
+ SILK='UART2_RX',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1320,490)',
+ SECTION='';
+
+PART_NAME
+ D41 'LED_LED_0603_IC_0.8MM_370-76670_LED_GRN':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20173529@FCL_OPTICAL.LED.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20173529@fcl_optical.\led.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20173529@fcl_optical.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,920)',
+ SECTION='';
+
+PART_NAME
+ D42 'LED_LED_0603_IC_0.8MM_370-76670_LED_GRN':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20174183@FCL_OPTICAL.LED.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20174183@fcl_optical.\led.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20174183@fcl_optical.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(910,1390)',
+ SECTION='';
+
+PART_NAME
+ D43 'LED_LED_0603_IC_0.8MM_370-76670_LED_GRN':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20174334@FCL_OPTICAL.LED.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20174334@fcl_optical.\led.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20174334@fcl_optical.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,440)',
+ SECTION='';
+
+PART_NAME
+ D44 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20293625@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20293625@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20293625@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1190,1280)',
+ SECTION='';
+
+PART_NAME
+ D45 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386942@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386942@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386942@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1510,680)',
+ SECTION='';
+
+PART_NAME
+ D46 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386952@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386952@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386952@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1530,680)',
+ SECTION='';
+
+PART_NAME
+ D47 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386962@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386962@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386962@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1550,680)',
+ SECTION='';
+
+PART_NAME
+ D48 'DIODE_BIDIR_SOD882_IC_0.5MM_480-78454_PESD5V0F1BL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386972@FCL_SEMICONDUCTOR.DIODE_BIDIR.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386972@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386972@fcl_semiconductor.\diode_bidir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1570,680)',
+ SECTION='';
+
+PART_NAME
+ D5 'LED_LED_0603_IC_0.8MM_370-76670_LED_GRN':
+ SILK='UART2_TX';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20089301@FCL_OPTICAL.LED.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20089301@fcl_optical.\led.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20089301@fcl_optical.\led.normal\(chips)',
+ SILK='UART2_TX',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1440,490)',
+ SECTION='';
+
+PART_NAME
+ D7 'ESD7104M_UDFN10_2P5X1_IC_0.55_480-78326_ESD7104':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20488373@FCL_SEMICONDUCTOR.ESD7104M.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20488373@fcl_semiconductor.\esd7104m.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20488373@fcl_semiconductor.\esd7104m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(750,980)',
+ SECTION='';
+
+PART_NAME
+ FL10 'EMIFILTER_NFM21P_CC_FIL_0402_DISCRETE_0.5_150-81001_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20110322@FCL_MISC.EMIFILTER_NFM21P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20110322@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20110322@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1620,670)',
+ SECTION='';
+
+PART_NAME
+ FL11 'EMIFILTER_NFM21P_CC_FIL_0402_DISCRETE_0.5_150-81001_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20110530@FCL_MISC.EMIFILTER_NFM21P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20110530@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20110530@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1620,190)',
+ SECTION='';
+
+PART_NAME
+ FL4 'EMIFILTER_NFM21P_CC_FIL_0402_DISCRETE_0.5_150-81001_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20466954@FCL_MISC.EMIFILTER_NFM21P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20466954@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20466954@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1290,150)',
+ SECTION='';
+
+PART_NAME
+ FL5 'EMIFILTER_NFM21P_CC_FIL_0402_DISCRETE_0.5_150-81001_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20099155@FCL_MISC.EMIFILTER_NFM21P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20099155@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20099155@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1280,790)',
+ SECTION='';
+
+PART_NAME
+ FL6 'EMIFILTER_NFM21P_CC_FIL_0402_DISCRETE_0.5_150-81001_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20103221@FCL_MISC.EMIFILTER_NFM21P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20103221@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20103221@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1280,910)',
+ SECTION='';
+
+PART_NAME
+ FL7 'EMIFILTER_NFM21P_CC_FIL_0402_DISCRETE_0.5_150-81001_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20105101@FCL_MISC.EMIFILTER_NFM21P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20105101@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20105101@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1320,580)',
+ SECTION='';
+
+PART_NAME
+ FL8 'EMIFILTER_NFM21P_CC_FIL_0402_DISCRETE_0.5_150-81001_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20107439@FCL_MISC.EMIFILTER_NFM21P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20107439@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20107439@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1120,1250)',
+ SECTION='';
+
+PART_NAME
+ FL9 'EMIFILTER_NFM21P_CC_FIL_0402_DISCRETE_0.5_150-81001_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20108917@FCL_MISC.EMIFILTER_NFM21P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20108917@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20108917@fcl_misc.\emifilter_nfm21p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1360,1150)',
+ SECTION='';
+
+PART_NAME
+ J1 'HDR_2X25_4S_CON_RCPT_2X25_0P4MM_SM_IO_4.31MM_211-10558_CON 2X25':
+ SILK='B2B_IO1';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20204890@FCL_CONNECTOR.HDR_2X25_4S.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20204890@fcl_connector.\hdr_2x25_4s.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20204890@fcl_connector.\hdr_2x25_4s.normal\(chips)',
+ SILK='B2B_IO1',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,520)',
+ SECTION='';
+
+PART_NAME
+ J10 'USB24_TYPEC_SH4_CON24_USB_TYPEC_RA_SMT_TH_2P2L_IO_3.67MM_211-83409_23K2 0101#LCP-872-2LF-L22-S22':
+ SILK='CONSOLE';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20077612@FCL_CONNECTOR.USB24_TYPEC_SH4.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20077612@fcl_connector.\usb24_typec_sh4.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20077612@fcl_connector.\usb24_typec_sh4.normal\(chips)',
+ SILK='CONSOLE',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(230,570)',
+ SECTION='';
+
+PART_NAME
+ J12 'CON_HDR_1X10_2SH_CON10_1P25_15P75X4P05_SM_IO_4.4MM_211-81987_CON 1X10 SM':
+ SILK='PWM';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20463980@FCL_CONNECTOR.CON_HDR_1X10_2SH.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20463980@fcl_connector.\con_hdr_1x10_2sh.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20463980@fcl_connector.\con_hdr_1x10_2sh.normal\(chips)',
+ SILK='PWM',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1540,310)',
+ SECTION='';
+
+PART_NAME
+ J13 'CONN_1X4_SHLD_CON_1X4_1P25_8P25X4P25_SM_IO_4.1_211-80221_CON_1X4':
+ SILK='I2C';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20137554@FCL_CONNECTOR.CONN_1X4_SHLD.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20137554@fcl_connector.\conn_1x4_shld.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20137554@fcl_connector.\conn_1x4_shld.normal\(chips)',
+ SILK='I2C',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1340,1350)',
+ SECTION='';
+
+PART_NAME
+ J14 'CONN_1X6_SHLD_CON_1X6_1P25_10P75X4P25_SM_IO_4.1_211-80220_CON_1X6':
+ SILK='TELEM';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20137839@FCL_CONNECTOR.CONN_1X6_SHLD.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20137839@fcl_connector.\conn_1x6_shld.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20137839@fcl_connector.\conn_1x6_shld.normal\(chips)',
+ SILK='TELEM',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1540,680)',
+ SECTION='';
+
+PART_NAME
+ J2 'HDR_2X25_4S_CON_RCPT_2X25_0P4MM_SM_IO_4.31MM_211-10558_CON 2X25':
+ SILK='B2B_IO2';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20205463@FCL_CONNECTOR.HDR_2X25_4S.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20205463@fcl_connector.\hdr_2x25_4s.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20205463@fcl_connector.\hdr_2x25_4s.normal\(chips)',
+ SILK='B2B_IO2',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1280,520)',
+ SECTION='';
+
+PART_NAME
+ J22 'CON_HDR_1X10_2SH_CON10_1P25_15P75X4P05_SM_IO_4.4MM_211-81987_CON 1X10 SM':
+ SILK='GPS';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20140919@FCL_CONNECTOR.CON_HDR_1X10_2SH.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20140919@fcl_connector.\con_hdr_1x10_2sh.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20140919@fcl_connector.\con_hdr_1x10_2sh.normal\(chips)',
+ SILK='GPS',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1540,950)',
+ SECTION='';
+
+PART_NAME
+ J24 'CONN_HDR_4X1_CON_PH_4M_2MM_TH_IO_6MM_TMP-CIP-22104_CON 1X4 PLUG':
+ SILK='SPKR';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20609106@FCL_CONNECTOR.CONN_HDR_4X1.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20609106@fcl_connector.\conn_hdr_4x1.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20609106@fcl_connector.\conn_hdr_4x1.normal\(chips)',
+ SILK='SPKR',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1830,1050)',
+ SECTION='';
+
+PART_NAME
+ J25 'CON6P_JACK_CON6P_JACK_SMT_IO_4.7_211-83379_CONN AUDIO 6':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20426692@FCL_CONNECTOR.CON6P_JACK.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20426692@fcl_connector.\con6p_jack.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20426692@fcl_connector.\con6p_jack.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1710,550)',
+ SECTION='';
+
+PART_NAME
+ J4 'CONN_1X4_SHLD_CON_1X4_1P25_8P25X4P25_SM_RA_IO_4.4_211-80226_CON_1X4':
+ SILK='CAN1';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20052448@FCL_CONNECTOR.CONN_1X4_SHLD.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20052448@fcl_connector.\conn_1x4_shld.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20052448@fcl_connector.\conn_1x4_shld.normal\(chips)',
+ SILK='CAN1',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1810,310)',
+ SECTION='';
+
+PART_NAME
+ J8 'CONN_1X4_SHLD_CON_1X4_1P25_8P25X4P25_SM_RA_IO_4.4_211-80226_CON_1X4':
+ SILK='CAN2';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20058742@FCL_CONNECTOR.CONN_1X4_SHLD.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20058742@fcl_connector.\conn_1x4_shld.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20058742@fcl_connector.\conn_1x4_shld.normal\(chips)',
+ SILK='CAN2',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1810,790)',
+ SECTION='';
+
+PART_NAME
+ J9 'CONN_1X4_SHLD_CON_1X4_1P25_8P25X4P25_SM_RA_IO_4.4_211-80226_CON_1X4':
+ SILK='CAN3';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059580@FCL_CONNECTOR.CONN_1X4_SHLD.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059580@fcl_connector.\conn_1x4_shld.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059580@fcl_connector.\conn_1x4_shld.normal\(chips)',
+ SILK='CAN3',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1550,1260)',
+ SECTION='';
+
+PART_NAME
+ L1 'IND_FERRITE_IND_0603_DISCRETE_0.75_180-78352_BLM18KG121TZ1':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20052741@FCL_INDUCTOR.IND_FERRITE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20052741@fcl_inductor.\ind_ferrite.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20052741@fcl_inductor.\ind_ferrite.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1200,70)',
+ SECTION='';
+
+PART_NAME
+ L2 'IND_FERRITE_IND_0603_DISCRETE_0.75_180-78352_BLM18KG121TZ1':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20052751@FCL_INDUCTOR.IND_FERRITE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20052751@fcl_inductor.\ind_ferrite.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20052751@fcl_inductor.\ind_ferrite.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1200,150)',
+ SECTION='';
+
+PART_NAME
+ L3 'IND_FERRITE_IND_0603_DISCRETE_0.75_180-78352_BLM18KG121TZ1':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20058548@FCL_INDUCTOR.IND_FERRITE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20058548@fcl_inductor.\ind_ferrite.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20058548@fcl_inductor.\ind_ferrite.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1200,550)',
+ SECTION='';
+
+PART_NAME
+ L4 'IND_FERRITE_IND_0603_DISCRETE_0.75_180-78352_BLM18KG121TZ1':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20058584@FCL_INDUCTOR.IND_FERRITE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20058584@fcl_inductor.\ind_ferrite.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20058584@fcl_inductor.\ind_ferrite.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1200,630)',
+ SECTION='';
+
+PART_NAME
+ L41 'BEAD_0_IND_0603_DISCRETE_1MM_180-81279_120OHM@100MHZ':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387529@FCL_INDUCTOR.BEAD_0.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387529@fcl_inductor.\bead_0.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387529@fcl_inductor.\bead_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1260,390)',
+ SECTION='';
+
+PART_NAME
+ L5 'IND_FERRITE_IND_0603_DISCRETE_0.75_180-78352_BLM18KG121TZ1':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059386@FCL_INDUCTOR.IND_FERRITE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059386@fcl_inductor.\ind_ferrite.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059386@fcl_inductor.\ind_ferrite.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(940,1020)',
+ SECTION='';
+
+PART_NAME
+ L53 'BEAD_0_IND_0603_DISCRETE_1MM_180-81279_120OHM@100MHZ':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20079666@FCL_INDUCTOR.BEAD_0.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20079666@fcl_inductor.\bead_0.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20079666@fcl_inductor.\bead_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(430,510)',
+ SECTION='';
+
+PART_NAME
+ L54 'BEAD_0_IND_0603_DISCRETE_1MM_180-81279_120OHM@100MHZ':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386269@FCL_INDUCTOR.BEAD_0.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386269@fcl_inductor.\bead_0.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386269@fcl_inductor.\bead_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(300,320)',
+ SECTION='';
+
+PART_NAME
+ L55 'BEAD_0_IND_0603_DISCRETE_1MM_180-81279_120OHM@100MHZ':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20545779@FCL_INDUCTOR.BEAD_0.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20545779@fcl_inductor.\bead_0.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20545779@fcl_inductor.\bead_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(540,530)',
+ SECTION='';
+
+PART_NAME
+ L6 'IND_FERRITE_IND_0603_DISCRETE_0.75_180-78352_BLM18KG121TZ1':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059422@FCL_INDUCTOR.IND_FERRITE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059422@fcl_inductor.\ind_ferrite.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059422@fcl_inductor.\ind_ferrite.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(940,1100)',
+ SECTION='';
+
+PART_NAME
+ L7 'BEAD_0_IND_0603_DISCRETE_1MM_180-81279_120OHM@100MHZ':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20546162@FCL_INDUCTOR.BEAD_0.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20546162@fcl_inductor.\bead_0.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20546162@fcl_inductor.\bead_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(480,420)',
+ SECTION='';
+
+PART_NAME
+ L8 'BEAD_0_IND_0603_DISCRETE_1MM_180-81279_120OHM@100MHZ':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386756@FCL_INDUCTOR.BEAD_0.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386756@fcl_inductor.\bead_0.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386756@fcl_inductor.\bead_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1260,560)',
+ SECTION='';
+
+PART_NAME
+ L9 'BEAD_0_IND_0603_DISCRETE_1MM_180-81279_120OHM@100MHZ':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386798@FCL_INDUCTOR.BEAD_0.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386798@fcl_inductor.\bead_0.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386798@fcl_inductor.\bead_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1260,570)',
+ SECTION='';
+
+PART_NAME
+ Q1 'MOSFET_N_SOT23_IC_1.1_480-75778_BSH103':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20106451@FCL_SEMICONDUCTOR.MOSFET_N.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20106451@fcl_semiconductor.\mosfet_n.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20106451@fcl_semiconductor.\mosfet_n.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1330,1080)',
+ SECTION='';
+
+PART_NAME
+ Q3 'NMOS_2N7002BKW_3P_DFN10106B_IC_0.5MM_480-10178_NX5008NBKMYL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20161012@FCL_SEMICONDUCTOR.NMOS_2N7002BKW_3P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20161012@fcl_semiconductor.\nmos_2n7002bkw_3p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20161012@fcl_semiconductor.\nmos_2n7002bkw_3p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(160,690)',
+ SECTION='';
+
+PART_NAME
+ Q4 'NMOS_2N7002BKW_3P_DFN10106B_IC_0.5MM_480-10178_NX5008NBKMYL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20163521@FCL_SEMICONDUCTOR.NMOS_2N7002BKW_3P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20163521@fcl_semiconductor.\nmos_2n7002bkw_3p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20163521@fcl_semiconductor.\nmos_2n7002bkw_3p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(220,630)',
+ SECTION='';
+
+PART_NAME
+ R1 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20053028@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20053028@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20053028@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1280,260)',
+ SECTION='';
+
+PART_NAME
+ R10 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059495@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059495@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059495@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1020,1210)',
+ SECTION='';
+
+PART_NAME
+ R11 'RES_RC0603_OV_DISCRETE_0.55_470-82899_60.4':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059657@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059657@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059657@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1300,1330)',
+ SECTION='';
+
+PART_NAME
+ R111 'RES_RC0402_25_DISCRETE_0.4_470-82016_2.2K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20292015@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20292015@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20292015@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1090,940)',
+ SECTION='';
+
+PART_NAME
+ R112 'RES_RC0402_25_DISCRETE_0.4_470-82016_2.2K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20292030@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20292030@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20292030@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1140,940)',
+ SECTION='';
+
+PART_NAME
+ R113 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20358835@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20358835@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20358835@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(40,680)',
+ SECTION='';
+
+PART_NAME
+ R114 'RES_RC0402_25_DISCRETE_0.40_470-81731_47K':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20361757@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20361757@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20361757@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(710,690)',
+ SECTION='';
+
+PART_NAME
+ R115 'RES_RC0402_25_DISCRETE_0.41_470-82064_4.7K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20361889@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20361889@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20361889@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1150,470)',
+ SECTION='';
+
+PART_NAME
+ R116 'RES_RC0402_25_DISCRETE_0.40_470-81704_24K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20367100@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20367100@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20367100@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(710,580)',
+ SECTION='';
+
+PART_NAME
+ R117 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20383113@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20383113@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20383113@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(750,510)',
+ SECTION='';
+
+PART_NAME
+ R118 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20383064@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20383064@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20383064@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(750,490)',
+ SECTION='';
+
+PART_NAME
+ R119 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20383035@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20383035@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20383035@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(750,480)',
+ SECTION='';
+
+PART_NAME
+ R12 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20301391@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20301391@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20301391@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1240,1280)',
+ SECTION='';
+
+PART_NAME
+ R1231 'RES_RC0402_25_DISCRETE_0.4MM_470-80511_1.00K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387357@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387357@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387357@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1220,250)',
+ SECTION='';
+
+PART_NAME
+ R1232 'RES_RC0402_25_DISCRETE_0.4MM_470-80511_1.00K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387508@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387508@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387508@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1220,330)',
+ SECTION='';
+
+PART_NAME
+ R1233 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387255@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387255@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387255@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1220,180)',
+ SECTION='';
+
+PART_NAME
+ R1234 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20426780@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20426780@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20426780@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,850)',
+ SECTION='';
+
+PART_NAME
+ R1235 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20426790@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20426790@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20426790@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,860)',
+ SECTION='';
+
+PART_NAME
+ R1236 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20428084@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20428084@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20428084@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(580,1050)',
+ SECTION='';
+
+PART_NAME
+ R1237 'RES_RC0402_25_DISCRETE_0.4_470-82834_200K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20447253@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20447253@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20447253@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(430,1250)',
+ SECTION='';
+
+PART_NAME
+ R1238 'RES_RC0402_25_DISCRETE_0.4_470-82016_2.2K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20447325@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20447325@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20447325@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(140,1320)',
+ SECTION='';
+
+PART_NAME
+ R1239 'RES_RC0402_25_DISCRETE_0.4_470-82016_2.2K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20447335@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20447335@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20447335@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(190,1320)',
+ SECTION='';
+
+PART_NAME
+ R1240 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20447345@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20447345@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20447345@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(480,1320)',
+ SECTION='';
+
+PART_NAME
+ R1241 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20447355@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20447355@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20447355@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,1320)',
+ SECTION='';
+
+PART_NAME
+ R1242 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20452379@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20452379@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20452379@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(390,810)',
+ SECTION='';
+
+PART_NAME
+ R1243 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20452389@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20452389@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20452389@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(440,810)',
+ SECTION='';
+
+PART_NAME
+ R1244 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20573764@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20573764@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20573764@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1040,290)',
+ SECTION='';
+
+PART_NAME
+ R1245 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20573788@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20573788@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20573788@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1040,390)',
+ SECTION='';
+
+PART_NAME
+ R1246 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20483698@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20483698@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20483698@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(630,370)',
+ SECTION='';
+
+PART_NAME
+ R1247 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20483714@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20483714@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20483714@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(630,400)',
+ SECTION='';
+
+PART_NAME
+ R1248 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20483730@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20483730@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20483730@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(630,420)',
+ SECTION='';
+
+PART_NAME
+ R1249 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20483746@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20483746@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20483746@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,390)',
+ SECTION='';
+
+PART_NAME
+ R1250 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20483762@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20483762@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20483762@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,400)',
+ SECTION='';
+
+PART_NAME
+ R1251 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20483778@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20483778@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20483778@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,420)',
+ SECTION='';
+
+PART_NAME
+ R1252 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20483794@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20483794@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20483794@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,430)',
+ SECTION='';
+
+PART_NAME
+ R1253 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20496809@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20496809@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20496809@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1060,1390)',
+ SECTION='';
+
+PART_NAME
+ R1254 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20497438@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20497438@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20497438@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1060,1350)',
+ SECTION='';
+
+PART_NAME
+ R1255 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20497454@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20497454@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20497454@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1060,1370)',
+ SECTION='';
+
+PART_NAME
+ R1256 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20497954@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20497954@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20497954@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1420,1350)',
+ SECTION='';
+
+PART_NAME
+ R1257 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20497969@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20497969@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20497969@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1420,1370)',
+ SECTION='';
+
+PART_NAME
+ R1258 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20497984@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20497984@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20497984@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1370,1310)',
+ SECTION='';
+
+PART_NAME
+ R1259 'RES_RC0402_25_DISCRETE_0.4MM_470-82056_100K':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20578108@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20578108@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20578108@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1240,700)',
+ SECTION='';
+
+PART_NAME
+ R1260 'RES_RC0402_25_DISCRETE_0.4MM_470-82056_100K':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20578118@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20578118@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20578118@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1290,700)',
+ SECTION='';
+
+PART_NAME
+ R1264 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20589267@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20589267@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20589267@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(230,1160)',
+ SECTION='';
+
+PART_NAME
+ R13 'RES_RC0603_OV_DISCRETE_0.55_470-82899_60.4':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059677@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059677@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059677@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1370,1330)',
+ SECTION='';
+
+PART_NAME
+ R14 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20060816@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20060816@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20060816@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(290,1130)',
+ SECTION='';
+
+PART_NAME
+ R21 'RES_RC0402_25_DISCRETE_0.40MM_470-81628_5.1K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20082629@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20082629@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20082629@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(420,850)',
+ SECTION='';
+
+PART_NAME
+ R22 'RES_RC0402_25_DISCRETE_0.40MM_470-81628_5.1K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20082639@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20082639@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20082639@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(380,850)',
+ SECTION='';
+
+PART_NAME
+ R3 'RES_RC0603_OV_DISCRETE_0.55_470-82899_60.4':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20053428@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20053428@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20053428@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1630,380)',
+ SECTION='';
+
+PART_NAME
+ R30 'RES_RC0402_25_DISCRETE_0.4MM_470-80511_1.00K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20088730@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20088730@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20088730@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1560,530)',
+ SECTION='';
+
+PART_NAME
+ R31 'RES_RC0402_25_DISCRETE_0.4MM_470-80511_1.00K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20088740@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20088740@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20088740@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1680,530)',
+ SECTION='';
+
+PART_NAME
+ R32 'RES_RC0402_25_DISCRETE_0.4MM_470-80511_1.00K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20089267@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20089267@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20089267@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1320,430)',
+ SECTION='';
+
+PART_NAME
+ R323 'RES_RC0402_25_DISCRETE_0.4MM_470-82056_100K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20410607@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20410607@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20410607@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1550,440)',
+ SECTION='';
+
+PART_NAME
+ R324 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20453223@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20453223@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20453223@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1550,510)',
+ SECTION='';
+
+PART_NAME
+ R325 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20413452@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20413452@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20413452@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1150,600)',
+ SECTION='';
+
+PART_NAME
+ R326 'RES_RC0402_25_DISCRETE_0.4_470-82061_20':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20412520@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20412520@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20412520@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1030,640)',
+ SECTION='';
+
+PART_NAME
+ R327 'RES_RC0402_25_DISCRETE_0.4_470-82061_20':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386862@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386862@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386862@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1080,640)',
+ SECTION='';
+
+PART_NAME
+ R328 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20413671@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20413671@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20413671@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1190,600)',
+ SECTION='';
+
+PART_NAME
+ R329 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20418035@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20418035@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20418035@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1650,630)',
+ SECTION='';
+
+PART_NAME
+ R33 'RES_RC0402_25_DISCRETE_0.4MM_470-80511_1.00K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20089277@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20089277@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20089277@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1440,430)',
+ SECTION='';
+
+PART_NAME
+ R331 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20453354@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20453354@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20453354@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1160,840)',
+ SECTION='';
+
+PART_NAME
+ R332 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20403239@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20403239@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20403239@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,880)',
+ SECTION='';
+
+PART_NAME
+ R333 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20403259@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20403259@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20403259@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,890)',
+ SECTION='';
+
+PART_NAME
+ R334 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20403835@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20403835@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20403835@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,900)',
+ SECTION='';
+
+PART_NAME
+ R335 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20453366@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20453366@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20453366@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1090,880)',
+ SECTION='';
+
+PART_NAME
+ R336 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20404023@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20404023@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20404023@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,940)',
+ SECTION='';
+
+PART_NAME
+ R337 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20404045@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20404045@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20404045@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,950)',
+ SECTION='';
+
+PART_NAME
+ R338 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20404067@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20404067@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20404067@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,960)',
+ SECTION='';
+
+PART_NAME
+ R339 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20404099@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20404099@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20404099@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(530,970)',
+ SECTION='';
+
+PART_NAME
+ R34 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20093816@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20093816@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20093816@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(300,410)',
+ SECTION='';
+
+PART_NAME
+ R341 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387601@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387601@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387601@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1570,950)',
+ SECTION='';
+
+PART_NAME
+ R342 'RES_RC0402_25_DISCRETE_0.41_470-82064_4.7K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20394617@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20394617@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20394617@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(430,150)',
+ SECTION='';
+
+PART_NAME
+ R343 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387788@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387788@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387788@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1570,1050)',
+ SECTION='';
+
+PART_NAME
+ R344 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20395301@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20395301@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20395301@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(310,170)',
+ SECTION='';
+
+PART_NAME
+ R345 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387847@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387847@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387847@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1570,1080)',
+ SECTION='';
+
+PART_NAME
+ R346 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387927@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387927@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387927@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1570,1180)',
+ SECTION='';
+
+PART_NAME
+ R35 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20094476@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20094476@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20094476@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,260)',
+ SECTION='';
+
+PART_NAME
+ R36 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20094932@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20094932@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20094932@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(260,260)',
+ SECTION='';
+
+PART_NAME
+ R4 'RES_RC0603_OV_DISCRETE_0.55_470-82899_60.4':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20053438@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20053438@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20053438@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1560,380)',
+ SECTION='';
+
+PART_NAME
+ R40 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20106131@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20106131@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20106131@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1380,1050)',
+ SECTION='';
+
+PART_NAME
+ R41 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20106170@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20106170@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20106170@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1290,1130)',
+ SECTION='';
+
+PART_NAME
+ R43 'RES_RC0402_25_DISCRETE_0.40_470-31027_51K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20156835@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20156835@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20156835@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(245,1130)',
+ SECTION='';
+
+PART_NAME
+ R45 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20158938@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20158938@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20158938@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(40,750)',
+ SECTION='';
+
+PART_NAME
+ R46 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20163966@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20163966@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20163966@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(250,560)',
+ SECTION='';
+
+PART_NAME
+ R47 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20163982@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20163982@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20163982@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(190,560)',
+ SECTION='';
+
+PART_NAME
+ R48 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20164410@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20164410@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20164410@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(290,600)',
+ SECTION='';
+
+PART_NAME
+ R49 'RES_RC0603_OV_DISCRETE_0.55_470-81457_390':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20172619@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20172619@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20172619@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(170,1130)',
+ SECTION='';
+
+PART_NAME
+ R5 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20053877@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20053877@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20053877@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1490,330)',
+ SECTION='';
+
+PART_NAME
+ R50 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20565984@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20565984@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20565984@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1000,150)',
+ SECTION='';
+
+PART_NAME
+ R51 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20566669@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20566669@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20566669@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1000,160)',
+ SECTION='';
+
+PART_NAME
+ R52 'RES_RC0603_OV_DISCRETE_0.55_470-81457_390':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20173930@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20173930@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20173930@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,860)',
+ SECTION='';
+
+PART_NAME
+ R53 'RES_RC0603_OV_DISCRETE_0.55_470-81457_390':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20174171@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20174171@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20174171@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(910,1330)',
+ SECTION='';
+
+PART_NAME
+ R54 'RES_RC0603_OV_DISCRETE_0.55_470-81457_390':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20174322@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20174322@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20174322@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,380)',
+ SECTION='';
+
+PART_NAME
+ R55 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20177776@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20177776@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20177776@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(640,1340)',
+ SECTION='';
+
+PART_NAME
+ R56 'RES_RC0402_25_DISCRETE_0.35MM_470-10478_1K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20566538@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20566538@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20566538@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(950,260)',
+ SECTION='';
+
+PART_NAME
+ R57 'RES_RC0402_25_DISCRETE_0.35_470-82878_6.98K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20566512@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20566512@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20566512@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(950,190)',
+ SECTION='';
+
+PART_NAME
+ R58 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20377104@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20377104@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20377104@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,660)',
+ SECTION='';
+
+PART_NAME
+ R59 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20377119@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20377119@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20377119@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,670)',
+ SECTION='';
+
+PART_NAME
+ R6 'RES_RC0402_25_DISCRETE_0.4_470-81195_10K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20058657@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20058657@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20058657@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1280,740)',
+ SECTION='';
+
+PART_NAME
+ R60 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20376239@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20376239@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20376239@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,570)',
+ SECTION='';
+
+PART_NAME
+ R61 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20376254@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20376254@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20376254@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1170,580)',
+ SECTION='';
+
+PART_NAME
+ R62 'RES_RC0603_OV_DISCRETE_0.5MM_470-10642_1.5K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20182703@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20182703@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20182703@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(610,560)',
+ SECTION='';
+
+PART_NAME
+ R63 'RES_RC0603_OV_DISCRETE_0.5MM_470-10642_1.5K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20182757@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20182757@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20182757@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(640,560)',
+ SECTION='';
+
+PART_NAME
+ R64 'RES_RC0603_OV_DISCRETE_0.5MM_470-10642_1.5K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20182782@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20182782@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20182782@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(670,560)',
+ SECTION='';
+
+PART_NAME
+ R65 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20208766@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20208766@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20208766@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(650,880)',
+ SECTION='';
+
+PART_NAME
+ R7 'RES_RC0603_OV_DISCRETE_0.55_470-82899_60.4':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20320235@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20320235@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20320235@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1560,860)',
+ SECTION='';
+
+PART_NAME
+ R8 'RES_RC0402_25_DISCRETE_0.37MM_470-10144_0 OHM':
+ BOM_IGNORE='DNP';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20319242@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20319242@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20319242@fcl_resistor.\res.normal\(chips)',
+ BOM_IGNORE='DNP',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1490,810)',
+ SECTION='';
+
+PART_NAME
+ R9 'RES_RC0603_OV_DISCRETE_0.55_470-82899_60.4':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20320203@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20320203@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20320203@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1630,860)',
+ SECTION='';
+
+PART_NAME
+ R91 'RES_RC0402_25_DISCRETE_0.35MM_470-10478_1K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20261230@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20261230@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20261230@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(710,910)',
+ SECTION='';
+
+PART_NAME
+ R94 'RES_RC0402_25_DISCRETE_0.35MM_470-10478_1K':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20261255@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20261255@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20261255@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(710,980)',
+ SECTION='';
+
+PART_NAME
+ S1 'SW-SPST_SW_2P8X5P7_SM_IC_2.5_510-78408_CHS-01TA1':
+ SILK='BUZZER';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20178617@FCL_SWITCH.SW-SPST.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20178617@fcl_switch.\sw-spst.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20178617@fcl_switch.\sw-spst.normal\(chips)',
+ SILK='BUZZER',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1240,1100)',
+ SECTION='';
+
+PART_NAME
+ SW3 'SW_PB_ESW_SW4_SPST_4P6X2P8_SM_IC_1.9_510-78339_TL6330AF200Q':
+ SILK='ARM';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20586093@FCL_SWITCH.SW_PB_ESW.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20586093@fcl_switch.\sw_pb_esw.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20586093@fcl_switch.\sw_pb_esw.normal\(chips)',
+ SILK='ARM',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(110,1090)',
+ SECTION='';
+
+PART_NAME
+ TP245 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20178540@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20178540@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20178540@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(580,1240)',
+ SECTION='';
+
+PART_NAME
+ TP255 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20178583@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20178583@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20178583@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(930,1240)',
+ SECTION='';
+
+PART_NAME
+ TP256 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20181624@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20181624@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20181624@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(750,530)',
+ SECTION='';
+
+PART_NAME
+ TP257 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20182885@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20182885@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20182885@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(780,530)',
+ SECTION='';
+
+PART_NAME
+ TP260 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20182982@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20182982@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20182982@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(460,530)',
+ SECTION='';
+
+PART_NAME
+ TP261 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20182989@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20182989@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20182989@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(490,530)',
+ SECTION='';
+
+PART_NAME
+ TP262 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20182996@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20182996@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20182996@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(520,530)',
+ SECTION='';
+
+PART_NAME
+ TP263 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20183003@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20183003@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20183003@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(550,530)',
+ SECTION='';
+
+PART_NAME
+ TP264 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20183107@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20183107@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page3_ins20183107@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1500,680)',
+ SECTION='';
+
+PART_NAME
+ TP265 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20452561@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20452561@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20452561@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(660,590)',
+ SECTION='';
+
+PART_NAME
+ TP266 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20573981@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20573981@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20573981@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(660,730)',
+ SECTION='';
+
+PART_NAME
+ TP267 'T POINT R_TESTPOINT_35MIL_IC_0.1_510-75618_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20452886@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20452886@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20452886@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(970,950)',
+ SECTION='';
+
+PART_NAME
+ U1 'PCA9306_TSSOP8_X2SON8_0P35_1X1P35MM_IC_0.33_315-84354_PCA9306JK':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20447299@FCL_IC3.PCA9306_TSSOP8.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20447299@fcl_ic3.\pca9306_tssop8.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20447299@fcl_ic3.\pca9306_tssop8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(270,1310)',
+ SECTION='';
+
+PART_NAME
+ U11 'NX5P3290_16P_BGA16_0P5_2P23X2P23_IC_0.595_315-82308_NX5P3363UKZ':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20057588@FCL_IC4.NX5P3290_16P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20057588@fcl_ic4.\nx5p3290_16p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20057588@fcl_ic4.\nx5p3290_16p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(340,970)',
+ SECTION='';
+
+PART_NAME
+ U12 'TJA1043ATK_14P_EP_HVSON14_0P65_4P6X3P1_EP_IC_1MM_312-82303_TJA1463ATK':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20058689@FCL_IC5.TJA1043ATK_14P_EP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20058689@fcl_ic5.\tja1043atk_14p_ep.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20058689@fcl_ic5.\tja1043atk_14p_ep.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1330,760)',
+ SECTION='';
+
+PART_NAME
+ U13 'ESD_DIODE_2LINE_SOT23_A_IC_1.1_480-80426_PESD2CANFD24L-TR':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20058849@FCL_SEMICONDUCTOR.ESD_DIODE_2LINE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20058849@fcl_semiconductor.\esd_diode_2line.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20058849@fcl_semiconductor.\esd_diode_2line.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1680,860)',
+ SECTION='';
+
+PART_NAME
+ U14 'TJA1043ATK_14P_EP_HVSON14_0P65_4P6X3P1_EP_IC_1MM_312-82303_TJA1463ATK':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059527@FCL_IC5.TJA1043ATK_14P_EP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059527@fcl_ic5.\tja1043atk_14p_ep.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059527@fcl_ic5.\tja1043atk_14p_ep.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1070,1230)',
+ SECTION='';
+
+PART_NAME
+ U15 'ESD_DIODE_2LINE_SOT23_A_IC_1.1_480-80426_PESD2CANFD24L-TR':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20059687@FCL_SEMICONDUCTOR.ESD_DIODE_2LINE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20059687@fcl_semiconductor.\esd_diode_2line.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20059687@fcl_semiconductor.\esd_diode_2line.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1420,1330)',
+ SECTION='';
+
+PART_NAME
+ U17 'BMI088_16P_LGA16_0P5_3X4P5MM_IC_1_312-82852_BMI088':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20070812@FCL_IC4.BMI088_16P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20070812@fcl_ic4.\bmi088_16p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page5_ins20070812@fcl_ic4.\bmi088_16p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(400,360)',
+ SECTION='';
+
+PART_NAME
+ U20 'PESD1USB30_5P_A_WLCSP5_0P4_0P82X1P22_IC_0.6MM_315-84061_PCMF1USB3S':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20080489@FCL_IC5.PESD1USB30_5P_A.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20080489@fcl_ic5.\pesd1usb30_5p_a.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20080489@fcl_ic5.\pesd1usb30_5p_a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(500,630)',
+ SECTION='';
+
+PART_NAME
+ U21 'PCAL6416AHF_QFN24_QFN24_4X4_EP2P1MM_IC_0.8_312-81433_PCAL6416AHF':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20091861@FCL_IC5.PCAL6416AHF_QFN24.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20091861@fcl_ic5.\pcal6416ahf_qfn24.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20091861@fcl_ic5.\pcal6416ahf_qfn24.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(360,230)',
+ SECTION='';
+
+PART_NAME
+ U22 '74AVC4T3144_12P_XQFN12_0P4_1P8X2P1_IC_0.5MM_315-83650_74AVC4T3144GU12-QX':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20176893@FCL_IC6.74AVC4T3144_12P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20176893@fcl_ic6.\74avc4t3144_12p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20176893@fcl_ic6.\74avc4t3144_12p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(690,1210)',
+ SECTION='';
+
+PART_NAME
+ U23 'LED_RGB_6P_LED6_0P85_3P25X2P85_SM_IC_1.85_370-76822_150352M173300':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20182177@FCL_OPTICAL.LED_RGB_6P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20182177@fcl_optical.\led_rgb_6p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20182177@fcl_optical.\led_rgb_6p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(600,620)',
+ SECTION='';
+
+PART_NAME
+ U24 'CP2105_QFN24P_QFN24_0P5_4X4_EP_IC_0.8_312-81361_CP2105':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20359585@FCL_IC5.CP2105_QFN24P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20359585@fcl_ic5.\cp2105_qfn24p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page7_ins20359585@fcl_ic5.\cp2105_qfn24p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(940,500)',
+ SECTION='';
+
+PART_NAME
+ U3 'TJA1043ATK_14P_EP_HVSON14_0P65_4P6X3P1_EP_IC_1MM_312-82303_TJA1463ATK':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20052339@FCL_IC5.TJA1043ATK_14P_EP.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20052339@fcl_ic5.\tja1043atk_14p_ep.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20052339@fcl_ic5.\tja1043atk_14p_ep.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1330,280)',
+ SECTION='';
+
+PART_NAME
+ U31 'WM8962_BGA_49P_A_BGA49_0P5_3P62X4_IC_0.75_315-80353_WM8962BECSN/R':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20386473@FCL_IC5.WM8962_BGA_49P_A.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20386473@fcl_ic5.\wm8962_bga_49p_a.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20386473@fcl_ic5.\wm8962_bga_49p_a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(710,470)',
+ SECTION='';
+
+PART_NAME
+ U32 'NX5P2924DUK_WLCSP6_WLCSP6_0P5_0P89X1P39_IC_0.5MM_315-83992_NX5P2924DUK':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20387580@FCL_IC.NX5P2924DUK_WLCSP6.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20387580@fcl_ic.\nx5p2924duk_wlcsp6.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20387580@fcl_ic.\nx5p2924duk_wlcsp6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(470,90)',
+ SECTION='';
+
+PART_NAME
+ U33 'MIC_SPH0641LM4H-1_5P_MIC5_3P6X2P75MM_IC_1.13MM_TMP-CIP-22070_MMICT3902-00-012':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20493856@FCL_MISC.MIC_SPH0641LM4H-1_5P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20493856@fcl_misc.\mic_sph0641lm4h-1_5p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20493856@fcl_misc.\mic_sph0641lm4h-1_5p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(890,1340)',
+ SECTION='';
+
+PART_NAME
+ U34 'MIC_SPH0641LM4H-1_5P_MIC5_3P6X2P75MM_IC_1.13MM_TMP-CIP-22070_MMICT3902-00-012':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20493997@FCL_MISC.MIC_SPH0641LM4H-1_5P.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20493997@fcl_misc.\mic_sph0641lm4h-1_5p.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20493997@fcl_misc.\mic_sph0641lm4h-1_5p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1240,1340)',
+ SECTION='';
+
+PART_NAME
+ U6 'ESD_DIODE_2LINE_SOT23_A_IC_1.1_480-80426_PESD2CANFD24L-TR':;
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20053363@FCL_SEMICONDUCTOR.ESD_DIODE_2LINE.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20053363@fcl_semiconductor.\esd_diode_2line.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page4_ins20053363@fcl_semiconductor.\esd_diode_2line.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1680,380)',
+ SECTION='';
+
+PART_NAME
+ Y1 'XTAL_13_XTLOSC4_3P2X2P5MM_SM_IC_0.60_230-77392_24MHZ':
+ BOM_IGNORE=' ';
+
+SECTION_NUMBER 1
+ '@SCH-96099_B.X-MR-NAVQ95E-IO(SCH_1):INS20428066@FCL_XTAL_OSC.XTAL_13.NORMAL(CHIPS)':
+ C_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):ins20428066@fcl_xtal_osc.\xtal_13.normal\(chips)',
+ P_PATH='@\sch-96099_b\.\x-mr-navq95e-io\(sch_1):page6_ins20428066@fcl_xtal_osc.\xtal_13.normal\(chips)',
+ BOM_IGNORE=' ',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(460,1040)',
+ SECTION='';
+
+END.

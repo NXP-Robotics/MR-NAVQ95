@@ -1,0 +1,20 @@
+{ Using PSTWRITER 23.1.0 d001Jan-20-2026 at 18:36:27 }
+
+#1 WARNING(ORCAP-36049): Ignoring following Component Definition properties since they also exists as Component Instance properties in Q:\Data\CDS_SITE\allegro.cfg.
+              ASSY_OPT , BOM_IGNORE
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U21.16" ignored for U21: X-MR-NAVQ95E-IO, 04 - I/O EXP & CAN TRX (3.60, 2.30). Connecting pin to net "AUD_PWREN".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U21.7" ignored for U21: X-MR-NAVQ95E-IO, 04 - I/O EXP & CAN TRX (3.60, 2.30). Connecting pin to net "AUD_INT_3V3_N".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "U31.G1" ignored for U31: X-MR-NAVQ95E-IO, 06 - Audio (7.10, 4.70). Connecting pin to net "HP_JD".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "U21.13" ignored for U21: X-MR-NAVQ95E-IO, 04 - I/O EXP & CAN TRX (3.60, 2.30). Connecting pin to net "LED_R".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "U21.14" ignored for U21: X-MR-NAVQ95E-IO, 04 - I/O EXP & CAN TRX (3.60, 2.30). Connecting pin to net "LED_G".
+#7 WARNING(ORCAP-36038): "No_connect" property on Pin "U21.15" ignored for U21: X-MR-NAVQ95E-IO, 04 - I/O EXP & CAN TRX (3.60, 2.30). Connecting pin to net "LED_B".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... E:\OneDrive - Brainiac Engineering S.R.L\01_Projects\96099_B_X-MR-NAVQ95E-IO\A085\allegro_netlist\pstchip.dat
+
+Loading... E:\OneDrive - Brainiac Engineering S.R.L\01_Projects\96099_B_X-MR-NAVQ95E-IO\A085\allegro_netlist\pstchip.dat
+
+Loading... E:\OneDrive - Brainiac Engineering S.R.L\01_Projects\96099_B_X-MR-NAVQ95E-IO\A085\allegro_netlist\pstxprt.dat
+
+Loading... E:\OneDrive - Brainiac Engineering S.R.L\01_Projects\96099_B_X-MR-NAVQ95E-IO\A085\allegro_netlist\pstxnet.dat
+packaging the design view...

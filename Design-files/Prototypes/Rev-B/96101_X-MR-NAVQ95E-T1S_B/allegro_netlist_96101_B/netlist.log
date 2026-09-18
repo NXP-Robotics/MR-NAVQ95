@@ -1,0 +1,16 @@
+{ Using PSTWRITER 23.1.0 d001Jan-16-2026 at 12:05:32 }
+
+#1 WARNING(ORCAP-36049): Ignoring following Component Definition properties since they also exists as Component Instance properties in Q:\Data\CDS_SITE\allegro.cfg.
+              ASSY_OPT , BOM_IGNORE
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U58.B1" ignored for U58: X-MR-NAVQ95E-T1S, P05-ETH_SJA1110_DATA (7.10, 1.00). Connecting pin to net "N20267788".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U58.D5" ignored for U58: X-MR-NAVQ95E-T1S, P05-ETH_SJA1110_DATA (7.10, 1.00). Connecting pin to net "N20267824".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... E:\OneDrive - Brainiac Engineering S.R.L\01_Projects\96101_B_X-MR-NAVQ95E-T1S\A085\allegro_netlist\pstchip.dat
+
+Loading... E:\OneDrive - Brainiac Engineering S.R.L\01_Projects\96101_B_X-MR-NAVQ95E-T1S\A085\allegro_netlist\pstchip.dat
+
+Loading... E:\OneDrive - Brainiac Engineering S.R.L\01_Projects\96101_B_X-MR-NAVQ95E-T1S\A085\allegro_netlist\pstxprt.dat
+
+Loading... E:\OneDrive - Brainiac Engineering S.R.L\01_Projects\96101_B_X-MR-NAVQ95E-T1S\A085\allegro_netlist\pstxnet.dat
+packaging the design view...
