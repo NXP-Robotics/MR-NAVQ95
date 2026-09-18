@@ -1,0 +1,14 @@
+{ Using PSTWRITER 23.1.0 d001Sep-17-2026 at 16:40:53 }
+
+#1 WARNING(ORCAP-36049): Ignoring following Component Definition properties since they also exists as Component Instance properties in Q:\Data\CDS_SITE\allegro.cfg.
+              ASSY_OPT , BOM_IGNORE
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\Work\OneDrive - NXP\_2026\97010_X-NAVQ95-MAIN\RevA1\A085\AAA\netlist\pstchip.dat
+
+Loading... C:\Work\OneDrive - NXP\_2026\97010_X-NAVQ95-MAIN\RevA1\A085\AAA\netlist\pstchip.dat
+
+Loading... C:\Work\OneDrive - NXP\_2026\97010_X-NAVQ95-MAIN\RevA1\A085\AAA\netlist\pstxprt.dat
+
+Loading... C:\Work\OneDrive - NXP\_2026\97010_X-NAVQ95-MAIN\RevA1\A085\AAA\netlist\pstxnet.dat
+packaging the design view...

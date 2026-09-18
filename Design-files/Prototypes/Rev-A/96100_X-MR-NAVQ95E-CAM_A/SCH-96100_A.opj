@@ -1,0 +1,69 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S011 (4309130)  [6/18/2025]-[09/29/25]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (File ".\sch-96100_a.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\Users\nxg08603\OneDrive - NXP\NAVQ_V2_Design_files\96100_A_X-MR-NAVQ95E-CAM\BOM-96100_A.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{AGILE_PN}\t{ASSY_OPT}\t{}\t{PRE_APN}\t{Reference}\t{MFG_NAME01}\t{MFG_PN01}\t{Description}")
+    (BOM_Header
+       "Item\tQuantity\tAgilePN\tASSY_OPT\tFIND#\tPRE_APN\tReference\tMFG_NAME01\tMFG_PN01\tDescription")
+    (BOM_Include_File
+       "C:\USERS\NXG08603\ONEDRIVE - NXP\NAVQ_V2_DESIGN_FILES\96100_A_X-MR-NAVQ95E-CAM\SCH-96100_A.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\bom-96100_a.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (MPSSessionName "nxg08603")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\sch-96100_a.dsn")
+      (Path "Design Resources" ".\sch-96100_a.dsn" "X-MR-NAVQ95E-CAM")
+      (Path "Outputs")
+      (Select "Design Resources" ".\sch-96100_a.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 554"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1089 24 572")
+        (Scroll "-183 0")
+        (Zoom "34")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXG08603\ONEDRIVE - NXP\NAVQ_V2_DESIGN_FILES\96100_A_X-MR-NAVQ95E-CAM\SCH-96100_A.DSN")
+      (Schematic "X-MR-NAVQ95E-CAM")
+      (Page "P03-CSI_to_RPi"))))
