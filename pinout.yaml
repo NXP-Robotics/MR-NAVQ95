@@ -1,0 +1,872 @@
+# Pinout data for the MR-NAVQ95 hardware reference. The cards, photos and tables are generated from this file.
+
+meta:
+  title: MR-NAVQ95 hardware reference
+  short_title: MR-NAVQ95
+  soc: i.MX95
+  main_schematic:
+    file: SPF-97010_A1-MAIN.pdf
+    rev: A1
+    url: https://github.com/NXP-Robotics/MR-NAVQ95/blob/main/Schematic/SPF-97010_A1-MAIN.pdf
+  io_schematic:
+    file: SPF-97013_A1-IO.pdf
+    rev: A1
+    url: https://github.com/NXP-Robotics/MR-NAVQ95/blob/main/Schematic/SPF-97013_A1-IO.pdf
+
+categories:
+  vin:   {label: "VIN 9-52 V",      fill: "#8b1a1a", dark: "#f85149"}
+  5v:    {label: "5 V",             fill: "#d1242f", dark: "#ff7b72"}
+  3v3:   {label: "3.3 V",           fill: "#bc4c00", dark: "#f0883e"}
+  gnd:   {label: "GND",             fill: "#1f2328", dark: "#6e7681"}
+  uart:  {label: "UART",            fill: "#0969da", dark: "#58a6ff"}
+  i2c:   {label: "I2C",             fill: "#8250df", dark: "#bc8cff"}
+  spi:   {label: "SPI",             fill: "#1a7f37", dark: "#3fb950"}
+  pwm:   {label: "PWM / timer",     fill: "#9a6700", dark: "#d29922"}
+  can:   {label: "CAN FD",          fill: "#0a7c86", dark: "#39c5cf"}
+  usb:   {label: "USB",             fill: "#a40e6b", dark: "#f778ba"}
+  eth:   {label: "Ethernet",        fill: "#116329", dark: "#56d364"}
+  pcie:  {label: "PCIe / M.2",      fill: "#3b3b8f", dark: "#a5b4fc"}
+  debug: {label: "SWD / JTAG",      fill: "#57606a", dark: "#8b949e"}
+  boot:  {label: "Boot mode",       fill: "#bf3989", dark: "#f778ba"}
+  gpio:  {label: "GPIO / misc",     fill: "#6e7781", dark: "#8b949e"}
+  adc:   {label: "Analog",          fill: "#bf3989", dark: "#ff9bce"}
+  audio: {label: "Audio",           fill: "#7d4e00", dark: "#e3b341"}
+  mipi:  {label: "MIPI CSI",        fill: "#4d2d91", dark: "#a78bfa"}
+  nc:    {label: "NC / key",        fill: "#eaeef2", dark: "#30363d", text: "#57606a"}
+boards:
+  main: {name: "Main board (NAVQ95-MAIN)", short: Main, tag: "main board"}
+  io:   {name: "IO expansion board (NAVQ95-IO)", short: IO, tag: "IO board"}
+  cam:  {name: "Camera expansion board (NAVQ95-CAMRP), one per CSI port", short: CAM, tag: "CAM board"}
+  t1s:  {name: "T1 Ethernet switch board (NAVQ95-T1SW)", short: T1S, tag: "T1 switch board", others_title: "T1S ports and headers"}
+
+overviews:
+  top:
+    photo: NAVQ95_TOP.JPG
+    crop: [0.14, 0.03, 0.83, 0.97]      # board outline within the photo (fractions of the full photo)
+    max_px: 1100
+    alt: "MR-NAVQ95 top view with connector callouts"
+    callouts:
+      - {conn: main/J9,  x: 0.188, y: 0.140, side: left}
+      - {conn: main/J8,  x: 0.210, y: 0.505, side: left}
+      - {conn: io/J7,   x: 0.265, y: 0.665, side: left}
+      - {conn: io/J6,   x: 0.344, y: 0.665, side: left}
+      - {conn: io/SW1,   x: 0.268, y: 0.747, side: left}
+      - {conn: io/J9,   x: 0.170, y: 0.765, side: left}
+      - {conn: io/S1,  x: 0.254, y: 0.803, side: left}
+      - {conn: io/J8,   x: 0.258, y: 0.922, side: left}
+      - {conn: io/J5,    x: 0.355, y: 0.922, side: bottom}
+      - {conn: io/J4,    x: 0.428, y: 0.922, side: bottom}
+      - {conn: io/J3,    x: 0.501, y: 0.922, side: bottom}
+      - {conn: io/J1,   x: 0.580, y: 0.917, side: right}
+      - {conn: main/SW3, x: 0.672, y: 0.070, side: top}
+      - {conn: main/SW1, x: 0.706, y: 0.068, side: top}
+      - {conn: main/J1,  x: 0.748, y: 0.822, side: right}
+      - {conn: io/J2,   x: 0.615, y: 0.617, side: right}
+      - {conn: main/J2,  x: 0.705, y: 0.897, side: right}
+      - {conn: main/J13, hidden: "bottom view"}
+      - {conn: main/J12, hidden: "bottom view"}
+      - {conn: main/J16, hidden: "bottom and front view"}
+      - {conn: main/J7,  hidden: "front view"}
+      - {conn: main/J6,  hidden: "front view"}
+      - {conn: main/J11, hidden: "not visible in the photos"}
+      - {conn: main/SW2, hidden: "top side, under the M.2 Key M module"}
+  side:
+    photo: NAVQ95_SIDE3.JPG
+    crop: [0.0, 0.24, 1.0, 0.74]        # front edge: IO board connectors plus the main board's bottom-edge parts
+    max_px: 1200
+    alt: "MR-NAVQ95 front view: IO board connectors, debug header, microSD and audio jack"
+    callouts:
+      - {conn: main/J9,  x: 0.064, y: 0.323, side: left}
+      - {conn: main/J8,  x: 0.164, y: 0.380, side: left}
+      - {conn: io/J9,   x: 0.189, y: 0.493, side: left}
+      - {conn: io/J7,   x: 0.279, y: 0.432, side: top}
+      - {conn: io/J6,   x: 0.364, y: 0.418, side: top}
+      - {conn: io/J2,   x: 0.632, y: 0.337, side: top}
+      - {conn: io/J8,   x: 0.343, y: 0.541, side: bottom}
+      - {conn: io/J5,    x: 0.457, y: 0.517, side: bottom}
+      - {conn: io/J4,    x: 0.543, y: 0.498, side: bottom}
+      - {conn: io/J3,    x: 0.629, y: 0.479, side: bottom}
+      - {conn: main/J7,  x: 0.336, y: 0.626, side: bottom}
+      - {conn: main/J6,  x: 0.471, y: 0.617, side: bottom}
+      - {conn: io/J12,   x: 0.589, y: 0.560, side: bottom}
+      - {conn: main/J5,  x: 0.607, y: 0.597, side: bottom}
+      - {conn: main/J16, x: 0.686, y: 0.626, side: bottom}
+      - {conn: io/J1,   x: 0.714, y: 0.465, side: right}
+      - {conn: main/J1,  x: 0.879, y: 0.446, side: right}
+      - {conn: main/J2,  x: 0.857, y: 0.512, side: right}
+  bottom:
+    photo: NAVQ95_BOTTOM.JPG
+    crop: [0.09, 0.0, 0.86, 1.0]
+    max_px: 1100
+    alt: "MR-NAVQ95 bottom view with connector callouts"
+    callouts:
+      - {conn: main/J12, x: 0.328, y: 0.063, side: top}
+      - {conn: main/J13, x: 0.578, y: 0.063, side: top}
+      - {conn: main/J16, x: 0.225, y: 0.403, side: left}
+      - {conn: main/J18, x: 0.270, y: 0.939, side: bottom}
+      - {conn: cam/J3,   x: 0.105, y: 0.160, side: left,  label: "J3 CSI (CSI_B2B)"}
+      - {conn: cam/J3,   x: 0.795, y: 0.160, side: right, label: "J3 CSI (DSICSI_B2B)"}
+      - {conn: t1s/J3,  x: 0.794, y: 0.649, side: right, label: "PORT2 (J3)"}
+      - {conn: t1s/J4,  x: 0.794, y: 0.768, side: right, label: "PORT1 (J4)"}
+      - {conn: t1s/J2,  x: 0.546, y: 0.574, side: right, label: "J2 SJA1110 DEBUG"}
+      - {conn: t1s/S2,   x: 0.366, y: 0.830, side: left,  label: "S2 BOOT_OPT"}
+      - {conn: t1s/J5,  x: 0.422, y: 0.936, side: bottom, label: "PORT5 (J5)"}
+      - {conn: t1s/J6,  x: 0.476, y: 0.936, side: bottom, label: "PORT6 (J6)"}
+      - {conn: t1s/J7,  x: 0.530, y: 0.936, side: bottom, label: "PORT7 (J7)"}
+      - {conn: t1s/J8,  x: 0.585, y: 0.936, side: bottom, label: "PORT8 (J8)"}
+      - {conn: t1s/J9,  x: 0.639, y: 0.936, side: bottom, label: "PORT9 (J9)"}
+      - {conn: t1s/J10,  x: 0.693, y: 0.936, side: bottom, label: "PORT10 (J10)"}
+
+connectors:
+  # ------------------------------------------------------------------ main board
+  - ref: J9
+    board: main
+    name: PWR_IN
+    cat: vin
+    function: "Power input 9-52 V (3S-12S battery)"
+    type: "Molex Micro-Fit 3.0 2-pin (0430450222)"
+    source: "SPF-97010_A1-MAIN.pdf p5"
+    verified: true
+    layout: single
+    notes: >
+      Pin 1 (BATT +) is the lower pin on the board. Input 9 to 52 V, never more than 60 V. The
+      board can draw 60 W between 9 and 20 V, and 125 W between 20 and 52 V. The input voltage is
+      measured on ADC_IN0 (VIN / 64).
+    pins:
+      - {n: 1, net: VDD_BAT, cat: vin, label: "BATT +"}
+      - {n: 2, net: GND,     cat: gnd, label: "BATT -"}
+
+  - ref: J2
+    board: main
+    name: CONSOLE
+    cat: uart
+    function: "UART1 (Linux console) and UART2 (M7 console) header, DS-009 TELEM layout"
+    type: "JST-GH 1x6 (SM06B-GHS-TB)"
+    standard: "DS-009 TELEM"
+    source: "SPF-97010_A1-MAIN.pdf p10"
+    level: "3.3 V logic"
+    path: []
+    verified: true
+    layout: single
+    notes: >
+      Pins 2 to 5 follow the DS-009 TELEM layout for UART1: 2 = TX, 3 = RX, 4 = CTS, 5 = RTS.
+      By default pin 4 carries UART2 RX and pin 5 UART2 TX (the M7 console). The same pads can be
+      muxed to UART1 CTS and RTS instead, which gives UART1 full DS-009 flow control on this
+      header. UART1 TX and UART2 TX are also the boot-mode
+      straps BT_MODE0 and BT_MODE1. The same two UARTs are also on the USB console port J10 of the
+      IO board, see the figure there.
+    alerts:
+      - {type: note, text: "UART1 TX and UART2 TX are boot straps. Keep them idle while the board resets, or it may boot from the wrong source."}
+    pins:
+      - {n: 1, net: VDD_SYS_5V0,        cat: 5v,   label: "5V out"}
+      - {n: 2, net: UART1_TXD/BT_MODE0, cat: uart, label: "UART1 TX", note: "Linux console; boot strap BT_MODE0", pad: "UART1_TXD"}
+      - {n: 3, net: UART1_RXD,          cat: uart, label: "UART1 RX", pad: "UART1_RXD"}
+      - {n: 4, net: UART2_RXD,          cat: uart, label: "UART2 RX", note: "M7 console by default; the pad can be muxed to UART1 CTS", pad: "UART2_RXD", alt: [LPUART1_CTS_B]}
+      - {n: 5, net: UART2_TXD/BT_MODE1, cat: uart, label: "UART2 TX", note: "M7 console by default; the pad can be muxed to UART1 RTS; boot strap BT_MODE1", pad: "UART2_TXD", alt: [LPUART1_RTS_B]}
+      - {n: 6, net: GND,                cat: gnd}
+
+  - ref: J7
+    board: main
+    name: DEBUG
+    cat: debug
+    function: "SWD / JTAG debug header (Arm Cortex 10-pin)"
+    type: "2x5 1.27 mm (Samtec SHF-105-01-L-D-RA)"
+    standard: "Arm Cortex 10-pin debug"
+    source: "SPF-97010_A1-MAIN.pdf p10"
+    level: "1.8 V logic (VTref)"
+    path: []
+    verified: true
+    layout: dual
+    notes: >
+      Standard Arm Cortex 10-pin layout (0.05 inch). Works with J-Link, PyOCD, CMSIS-DAP and
+      similar probes. nRESET goes through a diode to SYS_RST_B, so the probe can only pull it low.
+    alerts:
+      - {type: note, text: "VTref is 1.8 V. Use a debug probe that supports 1.8 V targets."}
+    pins:
+      - {n: 1,  net: VDD_1V8,             cat: 3v3,   label: "VTref 1.8V"}
+      - {n: 2,  net: DEBUG_TMS_SWDIO,     cat: debug, label: "SWDIO / TMS", pad: "DAP_TMS_SWDIO"}
+      - {n: 3,  net: GND,                 cat: gnd}
+      - {n: 4,  net: DEBUG_TCLK_SWCLK,    cat: debug, label: "SWCLK / TCK", pad: "DAP_TCLK_SWCLK"}
+      - {n: 5,  net: GND,                 cat: gnd}
+      - {n: 6,  net: DEBUG_TDO_TRACESWO,  cat: debug, label: "SWO / TDO", pad: "DAP_TDO_TRACESWO"}
+      - {n: 7,  net: GND,                 cat: nc,    label: "Key", note: "tied to GND"}
+      - {n: 8,  net: DEBUG_TDI,           cat: debug, label: "TDI", pad: "DAP_TDI"}
+      - {n: 9,  net: GND,                 cat: gnd,   label: "GNDDetect"}
+      - {n: 10, net: SYS_RST_B,           cat: gpio,  label: "nRESET", note: "open drain", via: "PF09 PMIC", pad: "POR_B"}
+
+  - ref: J13
+    board: main
+    name: USB1
+    cat: usb
+    function: "USB 3.0 Type-C, serial download / device port"
+    type: "USB Type-C receptacle, bottom side"
+    source: "SPF-97010_A1-MAIN.pdf p15"
+    layout: summary
+    summary: "Serial-download port of the i.MX95 boot ROM and the port the NavQ95 flasher uses. USB 3.0 and USB 2.0 are both connected."
+
+  - ref: J12
+    board: main
+    name: USB2
+    cat: usb
+    function: "USB 2.0 Type-C host port"
+    type: "USB Type-C receptacle, bottom side"
+    source: "SPF-97010_A1-MAIN.pdf p16"
+    layout: summary
+    summary: "Host port. 5 V VBUS through an NX20P0477 load switch with over-current protection."
+
+  - ref: J8
+    board: main
+    name: ENET1
+    cat: eth
+    function: "Gigabit Ethernet with PTP"
+    type: "RJ45 with magnetics (Abracon ARJM11D7)"
+    source: "SPF-97010_A1-MAIN.pdf p20"
+    layout: summary
+    summary: "RTL8211 PHY on i.MX95 ENET1, supports IEEE 1588 PTP."
+
+  - ref: J6
+    board: main
+    name: MICROSD
+    cat: gpio
+    function: "microSD card slot (USDHC2)"
+    type: "microSD push-push, bottom side"
+    source: "SPF-97010_A1-MAIN.pdf p13"
+    layout: summary
+    summary: "USDHC2. The board can boot from it when the boot-mode switch selects SD."
+
+  - ref: J1
+    board: main
+    name: M.2 KEY M
+    cat: pcie
+    function: "M.2 Key M slot, PCIe x1 (NPU or NVMe SSD)"
+    type: "M.2 Socket 3 Key M, 2242 / 2280 standoffs, 3.3 V up to 3.5 A"
+    level: "SMBus 1.8 V logic"
+    source: "SPF-97010_A1-MAIN.pdf p21"
+    verified: true
+    layout: single
+    path: [{name: "PI6C clock buffer", role: "100 MHz REFCLK"}, {name: "PCAL6524", role: "I/O expander (control pins)"}]
+    flags: ["PCIe x1: lane 0 only", "No SATA"]
+    notes: >
+      Only the pins below are connected. All other pins of the 75-pin socket are not used: PCIe lanes
+      1 to 3 (odd pins 5 to 37), SATA, DEVSLP, SUSCLK (pin 68, link resistor not fitted), MFG1/2 and the
+      even pins 6 to 36. The 3.3 V comes through an NX20P5090 load switch that the I/O expander can
+      switch off: 3.5 A continuous, 7 A peaks of 100 µs.
+    alerts:
+      - {type: note, text: "PCIe x1 only, no SATA. An NVMe SSD or NPU module works; a SATA M.2 drive does not."}
+    pins:
+      - {n: 3V3, net: VDD_3V3_M2_KEYM,    cat: 3v3,  label: "3.3 V ×9",  note: "pins 2, 4, 12, 14, 16, 18, 70, 72, 74"}
+      - {n: GND, net: GND,                cat: gnd,  label: "GND ×11",   note: "pins 3, 9, 15, 27, 33, 39, 45, 51, 57, 71, 73"}
+      - {n: 10,  net: LED_GRN,            cat: gpio, label: "Activity LED", tag: "drives the KEY_M_ACT LED"}
+      - {n: 40,  net: M2_SMBUS_CLK,       cat: i2c,  label: "SMBus CLK",  via: "P3H2840 I3C hub"}
+      - {n: 41,  net: PCIE1_RX0_N,        cat: pcie, label: "PCIe RX0 −", pad: PCIE1_RX0_N}
+      - {n: 42,  net: M2_SMBUS_DATA,      cat: i2c,  label: "SMBus DATA", via: "P3H2840 I3C hub"}
+      - {n: 43,  net: PCIE1_RX0_P,        cat: pcie, label: "PCIe RX0 +", pad: PCIE1_RX0_P}
+      - {n: 44,  net: M2_SMBUS_ALERT_B,   cat: i2c,  label: "SMBus ALERT#", via: "P3H2840 I3C hub"}
+      - {n: 47,  net: PCIE1_TX0_N,        cat: pcie, label: "PCIe TX0 −", pad: PCIE1_TX0_N}
+      - {n: 49,  net: PCIE1_TX0_P,        cat: pcie, label: "PCIe TX0 +", pad: PCIE1_TX0_P}
+      - {n: 50,  net: M2_KEYM_PERST_B,    cat: gpio, label: "PERST#",     via: "PCAL6524"}
+      - {n: 52,  net: M2_KEYM_CLKREQ_B,   cat: gpio, label: "CLKREQ#",    via: "clock buffer"}
+      - {n: 53,  net: M2_KEYM_REFCLK_N,   cat: pcie, label: "REFCLK −",   via: "clock buffer", tag: "100 MHz"}
+      - {n: 54,  net: M2_KEYM_PEWAKE_B,   cat: gpio, label: "PEWAKE#",    via: "PCAL6524"}
+      - {n: 55,  net: M2_KEYM_REFCLK_P,   cat: pcie, label: "REFCLK +",   via: "clock buffer", tag: "100 MHz"}
+      - {n: 69,  net: M2_KEYM_PEDET,      cat: gpio, label: "PEDET (card detect)", via: "PCAL6524"}
+
+  - ref: J16
+    board: main
+    name: M.2 KEY B
+    cat: pcie
+    function: "M.2 Key B slot, PCIe x1 with SIM (cellular modem)"
+    type: "M.2 Socket 2 Key B / B+M, 2242 / 3042 / 3052 standoffs, bottom side, 3.3 V up to 5 A"
+    level: "GPIO, RESET# and SMBus 1.8 V logic"
+    source: "SPF-97010_A1-MAIN.pdf p22"
+    verified: true
+    layout: single
+    path: [{name: "PI6C clock buffer", role: "100 MHz REFCLK"}, {name: "PCAL6524", role: "I/O expander (control pins)"}]
+    flags: ["PCIe x1: lane 0 only", "No USB: modem must be a PCIe model"]
+    notes: >
+      Made for a PCIe cellular modem. The USB 2.0 pins (7, 9) and the USB 3.0 / lane 1 pins (29 to 37)
+      are not connected. SMBus (40, 42, 44), SUSCLK (68)
+      and the Bluetooth coexistence lines COEX1/2 (64, 62, to the IW612) are routed, but their link
+      resistors are not fitted. ANTCTL0 to 3, COEX3, DPR, DEVSLP, GPIO_3/4/8 and MFG1/2 are not
+      connected. The UIM pins go to the SIM holder J5. The 3.3 V comes through an NX20P5090 load
+      switch that the I/O expander can switch off: 5 A continuous, 6 A peaks of 100 µs.
+    alerts:
+      - {type: important, text: "Buying a 4G or 5G modem? Get one that runs over PCIe. This slot has no USB pins, so a USB modem stays silent. Many modems exist in a USB and a PCIe version with the same name: check the exact SKU or the manual."}
+    pins:
+      - {n: 3V3, net: VDD_3V3_M2_KEYB,     cat: 3v3,  label: "3.3 V ×5",  note: "pins 2, 4, 70, 72, 74"}
+      - {n: GND, net: GND,                 cat: gnd,  label: "GND ×11",   note: "pins 3, 5, 11, 27, 33, 39, 45, 51, 57, 71, 73"}
+      - {n: 1,   net: M2_KEYB_CONFIG3,     cat: gpio, label: "CONFIG_3",  via: "PCAL6524"}
+      - {n: 6,   net: M2_KEYB_FCPO_B,      cat: gpio, label: "FCPO#", via: "PCAL6524", tag: "full card power off"}
+      - {n: 8,   net: M2_KEYB_WDISABLE1_B, cat: gpio, label: "W_DISABLE1#", via: "PCAL6524"}
+      - {n: 10,  net: LED_GRN,             cat: gpio, label: "Activity LED", tag: "drives the KEY_B_ACT LED"}
+      - {n: 20,  net: M2_KEYB_GPIO5,       cat: gpio, label: "GPIO_5",    via: "PCAL6524"}
+      - {n: 21,  net: M2_KEYB_CONFIG0,     cat: gpio, label: "CONFIG_0",  via: "PCAL6524"}
+      - {n: 22,  net: M2_KEYB_GPIO6,       cat: gpio, label: "GPIO_6",    via: "PCAL6524"}
+      - {n: 23,  net: M2_KEYB_WOWWAN_B,    cat: gpio, label: "WAKE#", via: "PCAL6524", tag: "wake on WWAN"}
+      - {n: 24,  net: M2_KEYB_GPIO7,       cat: gpio, label: "GPIO_7",    via: "PCAL6524"}
+      - {n: 26,  net: M2_KEYB_WDISABLE2_B, cat: gpio, label: "W_DISABLE2#", via: "PCAL6524"}
+      - {n: 30,  net: UIM_RESET,           cat: gpio, label: "SIM RST",   via: "SIM holder J5"}
+      - {n: 32,  net: UIM_CLK,             cat: gpio, label: "SIM CLK",   via: "SIM holder J5"}
+      - {n: 34,  net: UIM_DATA,            cat: gpio, label: "SIM I/O",   via: "SIM holder J5"}
+      - {n: 36,  net: UIM_PWR,             cat: 3v3,  label: "SIM VCC",   via: "SIM holder J5", tag: "supplied by the module"}
+      - {n: 41,  net: PCIE2_RX0_N,         cat: pcie, label: "PCIe RX0 −", pad: PCIE2_RX0_N}
+      - {n: 43,  net: PCIE2_RX0_P,         cat: pcie, label: "PCIe RX0 +", pad: PCIE2_RX0_P}
+      - {n: 47,  net: PCIE2_TX0_N,         cat: pcie, label: "PCIe TX0 −", pad: PCIE2_TX0_N}
+      - {n: 49,  net: PCIE2_TX0_P,         cat: pcie, label: "PCIe TX0 +", pad: PCIE2_TX0_P}
+      - {n: 50,  net: M2_KEYB_PERST_B,     cat: gpio, label: "PERST#",    via: "PCAL6524"}
+      - {n: 52,  net: M2_KEYB_CLKREQ_B,    cat: gpio, label: "CLKREQ#",   via: "clock buffer"}
+      - {n: 53,  net: M2_KEYB_REFCLK_N,    cat: pcie, label: "REFCLK −",  via: "clock buffer", tag: "100 MHz"}
+      - {n: 54,  net: M2_KEYB_PEWAKE_B,    cat: gpio, label: "PEWAKE#",   via: "PCAL6524"}
+      - {n: 55,  net: M2_KEYB_REFCLK_P,    cat: pcie, label: "REFCLK +",  via: "clock buffer", tag: "100 MHz"}
+      - {n: 66,  net: SIM_DETECT,          cat: gpio, label: "SIM_DETECT", via: "SIM holder J5"}
+      - {n: 67,  net: M2_KEYB_RESET_B,     cat: gpio, label: "RESET#",    via: "PCAL6524"}
+      - {n: 69,  net: M2_KEYB_CONFIG1,     cat: gpio, label: "CONFIG_1",  via: "PCAL6524"}
+      - {n: 75,  net: M2_KEYB_CONFIG2,     cat: gpio, label: "CONFIG_2",  via: "PCAL6524"}
+
+  - ref: J5
+    board: main
+    name: SIM
+    cat: gpio
+    function: "SIM card holder for the Key B modem slot"
+    type: "SIM card holder, 6 contacts + card-detect switch, bottom side"
+    source: "SPF-97010_A1-MAIN.pdf p22"
+    verified: true
+    layout: single
+    path: [{name: "M.2 Key B J16", role: "UIM pins 30-36, 66"}]
+    notes: >
+      Connected directly to the UIM pins of the Key B slot. The modem supplies the SIM voltage on
+      UIM_PWR. The card-detect switch pulls SIM_DETECT low when a card is inserted. All contacts have
+      ESD protection.
+    pins:
+      - {n: C1, net: UIM_PWR,    cat: 3v3,  label: "VCC", note: "from the module"}
+      - {n: C2, net: UIM_RESET,  cat: gpio, label: "RST"}
+      - {n: C3, net: UIM_CLK,    cat: gpio, label: "CLK"}
+      - {n: C5, net: GND,        cat: gnd}
+      - {n: C6, net: NC,         cat: nc,   label: "VPP"}
+      - {n: C7, net: UIM_DATA,   cat: gpio, label: "I/O"}
+      - {n: CD, net: SIM_DETECT, cat: gpio, label: "Card detect", note: "closes to GND"}
+
+  - ref: J11
+    board: main
+    name: RTC_BAT
+    cat: 3v3
+    function: "RTC backup battery (rechargeable ML2020, RPi 5 compatible)"
+    type: "JST-SH 1.0 mm 2-pin (SM02B-SRSS-TB), top entry"
+    source: "SPF-97010_A1-MAIN.pdf p17"
+    verified: true
+    layout: single
+    path: [{name: "PCF2131", role: "RTC (I2C2, 0x53)"}]
+    notes: >
+      Keeps the PCF2131 real-time clock running while the board has no power. The battery is
+      charged slowly from the 3.3 V rail. This suits a rechargeable ML2020
+      cell such as the [RPi RTC Battery](https://www.raspberrypi.com/products/rtc-battery/).
+    alerts:
+      - {type: warning, text: "Use a rechargeable ML2020 cell only. A CR2032 or other non-rechargeable cell must not be fitted: the board tries to charge it."}
+    pins:
+      - {n: 1, net: GND,  cat: gnd}
+      - {n: 2, net: VBAT, cat: 3v3, label: "Battery +", note: "charged slowly, about 3 V"}
+
+  - ref: J18
+    board: main
+    name: ANT0/ANT1
+    cat: gpio
+    function: "Wi-Fi 6 / Bluetooth antennas (IW612), ANT0 = J18, ANT1 = J19"
+    type: "2x U.FL"
+    source: "SPF-97010_A1-MAIN.pdf p19"
+    layout: summary
+    summary: "ANT0 = J18, ANT1 = J19. IW612 Wi-Fi 6, Bluetooth and 802.15.4."
+
+  - ref: SW1
+    board: main
+    name: SYS_RST
+    cat: gpio
+    function: "System reset button (short press: reset)"
+    type: "Tactile switch, right of the ON/OFF button, hidden under the thermal pad in the photo"
+    source: "SPF-97010_A1-MAIN.pdf p14"
+    layout: summary
+    summary: "Resets the whole board."
+
+  - ref: SW3
+    board: main
+    name: ONOFF
+    cat: gpio
+    function: "Power button (short press: on, 5 s press: off)"
+    type: "Tactile switch, left of the reset button"
+    source: "SPF-97010_A1-MAIN.pdf p14"
+    layout: summary
+    summary: "Talks to the PMIC ONOFF input."
+
+  - ref: SW2
+    board: main
+    name: BTMODE
+    cat: boot
+    function: "Boot mode DIP switch"
+    type: "4-position DIP switch, top side under the M.2 Key M module"
+    source: "SPF-97010_A1-MAIN.pdf p14"
+    layout: summary
+    summary: "See [Power up NavQ95](https://github.com/NXP-Robotics/imx-manifest-navq95#power-up-navq95)."
+
+  - ref: J3
+    board: main
+    name: B2B
+    cat: gpio
+    function: "Board-to-board expansion headers"
+    type: "Board-to-board headers"
+    source: "SPF-97010_A1-MAIN.pdf p25"
+    layout: summary
+    summary: "J3/J4 B2B_IO1/IO2 (2x25) for the IO board, J14/J15 B2B_CSI/DSICSI (2x20) for the camera boards, J17 B2B_ETH (2x25) for the T1 boards. Pin lists are on schematic page 25."
+
+  # ------------------------------------------------------------------ IO expansion board
+  - ref: J1
+    board: io
+    name: CONSOLE
+    cat: usb
+    function: "USB-C console: CP2105 bridge, UART1 = Linux, UART2 = M7"
+    type: "USB Type-C receptacle (USB 2.0 device)"
+    source: "SPF-97013_A1-IO.pdf p7"
+    path: [{name: "CP2105", role: "USB to dual UART bridge"}]
+    layout: summary
+    section: true
+    notes: >
+      A Silicon Labs CP2105 gives two serial ports on one USB-C connection. On a Linux host they
+      appear as ttyUSB0 (UART1, Linux console) and ttyUSB1 (UART2, M7 console). RX and TX LEDs for
+      both UARTs sit next to the connector. The same two UARTs also go to the J2 header on the main
+      board, see the figure below.
+    alerts:
+      - {type: note, text: "Port 1 (ECI) is the Linux console, port 2 (SCI) is the M7 console. Do not let the host drive the TX lines while the board resets."}
+
+  - ref: J6
+    board: io
+    name: TELEM
+    cat: uart
+    function: "Telemetry UART7 with flow control"
+    type: "JST-GH 1x6, top entry"
+    standard: "DS-009 TELEM"
+    source: "SPF-97013_A1-IO.pdf p5"
+    level: "3.3 V logic"
+    path: []
+    verified: true
+    layout: single
+    notes: >
+      The 5 V output is filtered (VDD_CON_UART_5V0) and has ESD protection.
+    pins:
+      - {n: 1, net: VDD_CON_UART_5V0, cat: 5v,   label: "5V out"}
+      - {n: 2, net: UART7_TX,         cat: uart, label: "UART7 TX", pad: "GPIO_IO08"}
+      - {n: 3, net: UART7_RX,         cat: uart, label: "UART7 RX", pad: "GPIO_IO09"}
+      - {n: 4, net: UART7_CTS_B,      cat: uart, label: "UART7 CTS", pad: "GPIO_IO10"}
+      - {n: 5, net: UART7_RTS_B,      cat: uart, label: "UART7 RTS", pad: "GPIO_IO11"}
+      - {n: 6, net: GND,              cat: gnd}
+
+  - ref: J8
+    board: io
+    name: GPS
+    cat: uart
+    function: "GPS: UART5, I2C6, safety switch, LED, buzzer"
+    type: "JST-GH 1x10, side entry"
+    standard: "DS-009 GPS"
+    source: "SPF-97013_A1-IO.pdf p5"
+    level: "3.3 V logic"
+    path: []
+    verified: true
+    layout: single
+    notes: >
+      Standard DS-009 GPS and compass connector. The safety switch input (ARM_IO) is also wired to
+      the ARM button SW1 on the board, and the LED output drives the LED in the switch. The buzzer pin
+      is switched by an N-FET (AO3400A) driven from TPM6_CH1. A buzzer on the board is connected in
+      parallel. DIP switch S1 sits between TPM6_CH1 and the FET: with S1 OFF both buzzers are
+      disconnected and TPM6_CH1 is free for PWM8 on the PWM header.
+    pins:
+      - {n: 1,  net: VDD_CON_GPS_5V0, cat: 5v,   label: "5V out"}
+      - {n: 2,  net: UART5_TX,        cat: uart, label: "UART5 TX", pad: "GPIO_IO00"}
+      - {n: 3,  net: UART5_RX,        cat: uart, label: "UART5 RX", pad: "GPIO_IO01"}
+      - {n: 4,  net: I2C6_SCL,        cat: i2c,  label: "I2C6 SCL", pad: "GPIO_IO03"}
+      - {n: 5,  net: I2C6_SDA,        cat: i2c,  label: "I2C6 SDA", pad: "GPIO_IO02"}
+      - {n: 6,  net: ARM_IO,          cat: gpio, label: "Safety switch", pad: "GPIO_IO07"}
+      - {n: 7,  net: SW_LED_OUT,      cat: gpio, label: "Safety LED", via: "PCAL6416 expander", pad: "I2C4 (GPIO_IO30/31)"}
+      - {n: 8,  net: VDD_CON_GPS_3V3, cat: 3v3,  label: "3.3V out"}
+      - {n: 9,  net: BUZZER,          cat: pwm,  label: "Buzzer", via: "FET Q2", pad: "GPIO_IO23", note: "enabled by DIP switch S1"}
+      - {n: 10, net: GND,             cat: gnd}
+
+  - ref: J7
+    board: io
+    name: I2C
+    cat: i2c
+    function: "I2C6 peripheral connector"
+    type: "JST-GH 1x4, top entry"
+    standard: "DS-009 I2C"
+    source: "SPF-97013_A1-IO.pdf p5"
+    level: "3.3 V logic"
+    path: []
+    verified: true
+    layout: single
+    notes: >
+      Same I2C6 bus as the GPS connector.
+    pins:
+      - {n: 1, net: VDD_CON_I2C_5V0, cat: 5v,  label: "5V out"}
+      - {n: 2, net: I2C6_SCL,        cat: i2c, label: "I2C6 SCL", pad: "GPIO_IO03"}
+      - {n: 3, net: I2C6_SDA,        cat: i2c, label: "I2C6 SDA", pad: "GPIO_IO02"}
+      - {n: 4, net: GND,             cat: gnd}
+
+  - ref: J9
+    board: io
+    name: PWM
+    cat: pwm
+    function: "8x PWM / timer outputs (TPM3 to TPM6), also usable as FlexIO1 pins"
+    type: "JST-GH 1x10, side entry"
+    source: "SPF-97013_A1-IO.pdf p5"
+    level: "3.3 V logic outputs"
+    path: []
+    verified: true
+    layout: single
+    notes: >
+      Pin 1 (VDD_CON_PWM) is the servo power rail. It is linked to the board 5 V through R60 (0 Ω,
+      not fitted) and measured on ADC_IN6 (VDD_CON_PWM / 8, up to 12 V). The outputs are 3.3 V logic
+      with ESD protection. PWM8 (pin 9) also drives the buzzer. Every output pad can
+      also be muxed to FlexIO1, for example for DShot or other custom timing protocols. Pins 2 and
+      5 can also be CAN4 or LPUART6 (TX and RX), pins 8 and 9 CAN5 or LPI2C5 (no pull-ups on the
+      board). CAN4 and CAN5 need an external transceiver.
+    alerts:
+      - {type: warning, text: "Do not put more than 5 V on the servo rail (pin 1) while R60 is fitted."}
+      - {type: tip, text: "Need all eight PWM outputs? Switch DIP switch S1 (BUZZER) off. It frees PWM8 from the buzzer."}
+    pins:
+      - {n: 1,  net: VDD_CON_PWM, cat: 5v,  label: "Servo rail", note: "measured on ADC_IN6", pad: "ADC_IN6"}
+      - {n: 2,  net: TPM3_CH0,    cat: pwm, label: "PWM1", pad: "GPIO_IO04", alt: [FLEXIO1_FLEXIO4, CAN4_TX, LPUART6_TX]}
+      - {n: 3,  net: TPM3_CH1,    cat: pwm, label: "PWM2", pad: "GPIO_IO20", alt: FLEXIO1_FLEXIO20}
+      - {n: 4,  net: TPM3_CH3,    cat: pwm, label: "PWM3", pad: "GPIO_IO24", alt: FLEXIO1_FLEXIO24}
+      - {n: 5,  net: TPM4_CH0,    cat: pwm, label: "PWM4", pad: "GPIO_IO05", alt: [FLEXIO1_FLEXIO5, CAN4_RX, LPUART6_RX]}
+      - {n: 6,  net: TPM4_CH1,    cat: pwm, label: "PWM5", pad: "GPIO_IO21", alt: FLEXIO1_FLEXIO21}
+      - {n: 7,  net: TPM5_CH0,    cat: pwm, label: "PWM6", pad: "GPIO_IO06", alt: FLEXIO1_FLEXIO6}
+      - {n: 8,  net: TPM5_CH1,    cat: pwm, label: "PWM7", pad: "GPIO_IO22", alt: [FLEXIO1_FLEXIO22, CAN5_TX, LPI2C5_SDA]}
+      - {n: 9,  net: TPM6_CH1,    cat: pwm, label: "PWM8", note: "shared with the buzzer while S1 is ON", pad: "GPIO_IO23", alt: [FLEXIO1_FLEXIO23, CAN5_RX, LPI2C5_SCL]}
+      - {n: 10, net: GND,         cat: gnd}
+
+  - ref: J5
+    board: io
+    name: CAN1
+    cat: can
+    function: "CAN FD 1 (TJA1463)"
+    type: "JST-GH 1x4, side entry"
+    standard: "DS-009 CAN"
+    source: "SPF-97013_A1-IO.pdf p4"
+    bridge:
+      name: TJA1463
+      role: "CAN FD transceiver"
+      map:
+        - {net: CAN1_H, port_in: CANH, port_out: TXD, label: "CAN1 TX", pad: PDM_CLK}
+        - {net: CAN1_L, port_in: CANL, port_out: RXD, label: "CAN1 RX", pad: PDM_BIT_STREAM0}
+    flags: ["120 Ω termination: fitted"]
+    verified: true
+    layout: single
+    notes: >
+      TJA1463 CAN FD transceiver with 5 V supply. The 120 Ω split termination is on the board, so each
+      CAN port is a bus end. CANH and CANL together form the differential bus. TXD and RXD are the
+      logic pins of the transceiver and go to the FlexCAN pads of the i.MX95. The transceiver enable
+      and standby pins are controlled through the PCAL6524 I/O expander.
+    pins:
+      - {n: 1, net: CON_CAN1_5V0, cat: 5v,  label: "5V out"}
+      - {n: 2, net: CAN1_H,       cat: can, label: "CAN1 H"}
+      - {n: 3, net: CAN1_L,       cat: can, label: "CAN1 L"}
+      - {n: 4, net: GND,          cat: gnd}
+
+  - ref: J4
+    board: io
+    name: CAN2
+    cat: can
+    function: "CAN FD 2 (TJA1463)"
+    type: "JST-GH 1x4, side entry"
+    standard: "DS-009 CAN"
+    source: "SPF-97013_A1-IO.pdf p4"
+    bridge:
+      name: TJA1463
+      role: "CAN FD transceiver"
+      map:
+        - {net: CAN2_H, port_in: CANH, port_out: TXD, label: "CAN2 TX", pad: GPIO_IO25}
+        - {net: CAN2_L, port_in: CANL, port_out: RXD, label: "CAN2 RX", pad: GPIO_IO27}
+    flags: ["120 Ω termination: fitted"]
+    verified: true
+    layout: single
+    notes: >
+      Same circuit as CAN1, with the 120 Ω termination.
+    pins:
+      - {n: 1, net: CON_CAN2_5V0, cat: 5v,  label: "5V out"}
+      - {n: 2, net: CAN2_H,       cat: can, label: "CAN2 H"}
+      - {n: 3, net: CAN2_L,       cat: can, label: "CAN2 L"}
+      - {n: 4, net: GND,          cat: gnd}
+
+  - ref: J3
+    board: io
+    name: CAN3
+    cat: can
+    function: "CAN FD 3 (TJA1463)"
+    type: "JST-GH 1x4, side entry"
+    standard: "DS-009 CAN"
+    source: "SPF-97013_A1-IO.pdf p4"
+    bridge:
+      name: TJA1463
+      role: "CAN FD transceiver"
+      then: [{name: "74AVC4T3144", role: "level shifter"}]
+      map:
+        - {net: CAN3_H, port_in: CANH, port_out: TXD, label: "CAN3 TX", pad: CCM_CLKO3}
+        - {net: CAN3_L, port_in: CANL, port_out: RXD, label: "CAN3 RX", pad: CCM_CLKO4}
+    flags: ["120 Ω termination: fitted"]
+    verified: true
+    layout: single
+    notes: >
+      Same circuit as CAN1, with the 120 Ω termination.
+    pins:
+      - {n: 1, net: CON_CAN3_5V0, cat: 5v,  label: "5V out"}
+      - {n: 2, net: CAN3_H,       cat: can, label: "CAN3 H"}
+      - {n: 3, net: CAN3_L,       cat: can, label: "CAN3 L"}
+      - {n: 4, net: GND,          cat: gnd}
+
+  - ref: S1
+    board: io
+    name: BUZZER
+    cat: gpio
+    function: "Buzzer enable DIP switch"
+    type: "1-position DIP switch (CHS-01TA1), next to the ARM button"
+    source: "SPF-97013_A1-IO.pdf p5"
+    layout: summary
+    summary: "ON connects TPM6_CH1 to the buzzer FET. OFF disconnects the buzzer and the GPS buzzer pin, so PWM8 on the PWM header is a free channel."
+
+  - ref: SW1
+    board: io
+    name: ARM
+    cat: gpio
+    function: "Arm / safety switch with LED"
+    type: "Tactile switch"
+    source: "SPF-97013_A1-IO.pdf p5"
+    layout: summary
+    summary: "Wired in parallel with the safety-switch and LED pins of the GPS connector."
+
+  - ref: J12
+    board: io
+    name: AUDIO
+    cat: audio
+    function: "3.5 mm headset jack, CTIA wiring (WM8962B headphone out + microphone in)"
+    type: "3.5 mm 4-pole TRRS jack with insertion switch, board underside"
+    standard: "CTIA / AHJ (tip L, ring 1 R, ring 2 GND, sleeve MIC)"
+    source: "SPF-97013_A1-IO.pdf p6"
+    verified: true
+    layout: plug
+    path: [{name: "WM8962B", role: "audio codec (SAI2 + I2C4)"}]
+    notes: >
+      Plug contacts listed from tip to sleeve. The switch in the jack drives HP_JD: high with a plug inserted, low without. The codec uses it to detect the plug. The headphone ground reference is the HP_FB sense
+      line of the codec.
+    alerts:
+      - {type: note, text: "CTIA wiring only. OMTP headsets (microphone and ground swapped) do not work."}
+    pins:
+      - {n: T,  net: HP_J_L,   cat: audio, label: "Left (tip)",       via: "WM8962B HPOUTL"}
+      - {n: R1, net: HP_J_R,   cat: audio, label: "Right (ring 1)",   via: "WM8962B HPOUTR"}
+      - {n: R2, net: GND,      cat: gnd,   label: "GND (ring 2)"}
+      - {n: S,  net: HP_MICIN, cat: audio, label: "Microphone (sleeve)", via: "WM8962B IN1L", note: "bias voltage comes from the codec"}
+      - {n: SW, net: HP_J_D,   cat: gpio,  label: "Insert detect",    via: "WM8962B GPIO3 (HP_JD)"}
+
+  - ref: J2
+    board: io
+    name: SPKR
+    cat: audio
+    function: "Stereo speaker output (WM8962B class-D, 2x 1 W)"
+    type: "JST-PH 2.0 mm 1x4"
+    source: "SPF-97013_A1-IO.pdf p6"
+    path: [{name: "WM8962B", role: "audio codec (SAI2 + I2C4)"}]
+    verified: true
+    layout: single
+    notes: >
+      Bridge-tied class-D outputs of the WM8962B codec. The 4-pin JST-PH
+      plug of the [Adafruit 1669 Stereo Enclosed Speaker Set](https://www.adafruit.com/product/1669)
+      (2x 3 W, 4 Ω) fits directly. J25 next to it is the headset jack; the board also has two PDM
+      microphones.
+    alerts:
+      - {type: caution, text: "No GND on this connector. Each speaker goes between its − and + pin. Never connect a speaker pin to ground."}
+    pins:
+      - {n: 1, net: SPKOUTLN, cat: audio, label: "Left −", note: "not GND", pad: "WM8962 codec"}
+      - {n: 2, net: SPKOUTLP, cat: audio, label: "Left +", pad: "WM8962 codec"}
+      - {n: 3, net: SPKOUTRN, cat: audio, label: "Right −", note: "not GND", pad: "WM8962 codec"}
+      - {n: 4, net: SPKOUTRP, cat: audio, label: "Right +", pad: "WM8962 codec"}
+
+  # ------------------------------------------------------------------ camera expansion board
+  - ref: J3
+    board: cam
+    name: CSI
+    cat: mipi
+    function: "MIPI CSI-2 camera, 4 data lanes, RPi camera compatible"
+    type: "22-pin 0.5 mm FPC/FFC, contacts away from the PCB"
+    standard: "RPi 22-pin CSI layout"
+    level: "1.2 V MIPI, 3.3 V I2C and GPIO"
+    source: "SPF-97012_A1-CAMRP.pdf p3"
+    verified: true
+    layout: single
+    path: [{name: "IP4292", role: "MIPI ESD arrays"}, {name: "PCA9306", role: "I2C level shifter"}]
+    flags: ["RPi camera modules fit (22-pin FFC)", "RPi DSI displays: DSICSI_B2B port only"]
+    notes: >
+      Pin-compatible with the 22-pin RPi camera connector (22-pin 0.5 mm same-side FFC). Two
+      identical camera boards can be fitted. In the bottom view, the left one sits on CSI_B2B and
+      goes to the i.MX95 MIPI_CSI1 port; the right one sits on DSICSI_B2B and goes to the second
+      port, which is shared between DSI and CSI. The camera I2C is the i.MX95 I3C2 bus, shifted
+      from 1.8 V to 3.3 V by a PCA9306. The two GPIO pins come from the I/O expander on the main
+      board; the exact expander pins and the pad names of the second port were not traced. Whether a
+      camera module works depends on the software image, not on the connector. J4 next to it is a
+      3-pin 5 V header for a display, not fitted.
+    alerts:
+      - {type: tip, text: "RPi camera modules fit directly with a standard 22-pin FFC. For an RPi DSI display use the camera board on the DSICSI_B2B port; the CSI_B2B port cannot drive a display."}
+    pins:
+      - {n: 1,  net: GND,            cat: gnd}
+      - {n: 2,  net: MIPI_CSI_D0_N,  cat: mipi, label: "CSI D0 −", pad: MIPI_CSI1_D0_N}
+      - {n: 3,  net: MIPI_CSI_D0_P,  cat: mipi, label: "CSI D0 +", pad: MIPI_CSI1_D0_P}
+      - {n: 4,  net: GND,            cat: gnd}
+      - {n: 5,  net: MIPI_CSI_D1_N,  cat: mipi, label: "CSI D1 −", pad: MIPI_CSI1_D1_N}
+      - {n: 6,  net: MIPI_CSI_D1_P,  cat: mipi, label: "CSI D1 +", pad: MIPI_CSI1_D1_P}
+      - {n: 7,  net: GND,            cat: gnd}
+      - {n: 8,  net: MIPI_CSI_CLK_N, cat: mipi, label: "CSI CLK −", pad: MIPI_CSI1_CLK_N}
+      - {n: 9,  net: MIPI_CSI_CLK_P, cat: mipi, label: "CSI CLK +", pad: MIPI_CSI1_CLK_P}
+      - {n: 10, net: GND,            cat: gnd}
+      - {n: 11, net: MIPI_CSI_D2_N,  cat: mipi, label: "CSI D2 −", pad: MIPI_CSI1_D2_N}
+      - {n: 12, net: MIPI_CSI_D2_P,  cat: mipi, label: "CSI D2 +", pad: MIPI_CSI1_D2_P}
+      - {n: 13, net: GND,            cat: gnd}
+      - {n: 14, net: MIPI_CSI_D3_N,  cat: mipi, label: "CSI D3 −", pad: MIPI_CSI1_D3_N}
+      - {n: 15, net: MIPI_CSI_D3_P,  cat: mipi, label: "CSI D3 +", pad: MIPI_CSI1_D3_P}
+      - {n: 16, net: GND,            cat: gnd}
+      - {n: 17, net: CAM1_IO1_CON,   cat: gpio, label: "Camera GPIO 1", via: "I/O expander"}
+      - {n: 18, net: CAM1_IO2_CON,   cat: gpio, label: "Camera GPIO 2", via: "I/O expander"}
+      - {n: 19, net: GND,            cat: gnd}
+      - {n: 20, net: SCL_3V3_CON,    cat: i2c,  label: "I2C SCL", via: "PCA9306", pad: I3C2_SCL}
+      - {n: 21, net: SDA_3V3_CON,    cat: i2c,  label: "I2C SDA", via: "PCA9306", pad: I3C2_SDA}
+      - {n: 22, net: VDD_CON_3V3,    cat: 3v3,  label: "3.3V out"}
+
+  - ref: J4
+    board: cam
+    name: 5V
+    cat: 5v
+    function: "5 V header for a display (not fitted)"
+    type: "1x3 2.54 mm right-angle header, not fitted"
+    source: "SPF-97012_A1-CAMRP.pdf p3"
+    verified: true
+    layout: single
+    flags: ["Not fitted"]
+    notes: >
+      Filtered 5 V from the system rail with ESD protection, meant for a DSI display on the
+      DSICSI_B2B camera board. The silkscreen marks pin 1 as 5V.
+    pins:
+      - {n: 1, net: CON_DISP_5V0, cat: 5v,  label: "5V out"}
+      - {n: 2, net: GND,          cat: gnd}
+      - {n: 3, net: GND,          cat: gnd}
+
+  - ref: J4
+    board: t1s
+    name: PORT1
+    cat: eth
+    function: "1000BASE-T1 port 1"
+    type: "Single-pair automotive connector"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "TJA1120 PHY on SJA1110 SGMII port 1."
+
+  - ref: J3
+    board: t1s
+    name: PORT2
+    cat: eth
+    function: "1000BASE-T1 port 2"
+    type: "Single-pair automotive connector"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "TJA1120 PHY on SJA1110 SGMII port 2."
+
+  - ref: J5
+    board: t1s
+    name: PORT5
+    cat: eth
+    function: "100BASE-T1 port 5"
+    type: "2-pin single-pair connector"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "SJA1110 internal 100BASE-T1 PHY, switch port 5."
+
+  - ref: J6
+    board: t1s
+    name: PORT6
+    cat: eth
+    function: "100BASE-T1 port 6"
+    type: "2-pin single-pair connector"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "SJA1110 internal 100BASE-T1 PHY, switch port 6."
+
+  - ref: J7
+    board: t1s
+    name: PORT7
+    cat: eth
+    function: "100BASE-T1 port 7"
+    type: "2-pin single-pair connector"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "SJA1110 internal 100BASE-T1 PHY, switch port 7."
+
+  - ref: J8
+    board: t1s
+    name: PORT8
+    cat: eth
+    function: "100BASE-T1 port 8"
+    type: "2-pin single-pair connector"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "SJA1110 internal 100BASE-T1 PHY, switch port 8."
+
+  - ref: J9
+    board: t1s
+    name: PORT9
+    cat: eth
+    function: "100BASE-T1 port 9"
+    type: "2-pin single-pair connector"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "SJA1110 internal 100BASE-T1 PHY, switch port 9."
+
+  - ref: J10
+    board: t1s
+    name: PORT10
+    cat: eth
+    function: "100BASE-T1 port 10"
+    type: "2-pin single-pair connector"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "SJA1110 internal 100BASE-T1 PHY, switch port 10."
+
+  - ref: J2
+    board: t1s
+    name: DEBUG
+    cat: debug
+    function: "Debug header of the SJA1110 (Arm Cortex-M7 inside the switch)"
+    type: "2x5 1.27 mm"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "Not the i.MX95 debug port; that is J7 on the main board."
+
+  - ref: S1
+    board: t1s
+    name: SMI
+    cat: gpio
+    function: "SMI routing switch"
+    type: "1-position DIP switch (CHS-01TA1)"
+    source: "SPF-97011_A1-T1SW.pdf p5"
+    layout: summary
+    summary: "Leave as delivered. Only used when the SJA1110 runs without the host."
+
+  - ref: S2
+    board: t1s
+    name: BOOT_OPT
+    cat: boot
+    function: "SJA1110 boot option switch"
+    type: "2-position DIP switch"
+    source: "SPF-97011_A1-T1SW.pdf"
+    layout: summary
+    summary: "Boot option of the SJA1110; see the SJA1110 documentation before changing it."
+
+figures:
+  console-shared: "UART1 and UART2 are shared between the J2 header and the CP2105 USB bridge"
+
+cheatsheet:
+  brand: MR-NAVQ95
+  pages:
+    - {title: "IO expansion board (NAVQ95-IO)", boards: [io]}
+    - {title: "Main board (NAVQ95-MAIN) and Camera expansion board (NAVQ95-CAMRP)", boards: [main, cam]}
