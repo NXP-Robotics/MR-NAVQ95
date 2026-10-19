@@ -84,15 +84,15 @@ A range of software platforms can be deployed on the Cortex-M7 core. The followi
 The MR-NAVQ95 Main Board serves as the central processing and power distribution hub for the platform. It handles the core i.MX95 compute, wide-input power delivery, and routing to all board-to-board and high-speed interfaces. 
 
 For detailed component layouts, pin configurations, and electrical routing, refer to the core system schematics:
-* [NAVQ95-MAIN](Schematic/SPF-97010_A1-MAIN.pdf)
+* [NAVQ95-MAIN](Schematic/SPF-97010_A2-MAIN.pdf)
 
 ## Expansion Capabilities
 
 Building upon this core Main Board, the system is highly adaptable thanks to support for modular add-on boards:
 
 **XGMII-based Networking expansion boards:** 
-* [NAVQ95-T1SW](Schematic/SPF-97011_A1-T1SW.pdf): T1 Switch utilizing the NXP SJA1110 for six 100BASE-T1 connections and 2x 1000BASE-T1.
-* [X-MR-NAVQ95E-T1P](Schematic/Prototypes/Schematic-Rev-A/SPF-96098_A-T1PHY.pdf): T1 Single Phy setup using the NXP TJA1103.
+* [NAVQ95-T1SW](Schematic/SPF-97011_A1-T1SW.pdf): T1 Switch utilizing the NXP SJA1110 for six 100BASE-T1 connections and two 1000BASE-T1.
+* [X-MR-NAVQ95E-T1P](Schematic/Prototypes/Schematic-Rev-A/SPF-96098_A-T1PHY.pdf): Single 100-BASET1 PHY prototype using the NXP TJA1103.
 
 **CSI/DSI Vision / Camera expansion board:** 
 * [NAVQ95-CAMRP](Schematic/SPF-97012_A1-CAMRP.pdf): A 22-pin Raspberry Pi-style connector expansion board for CSI/DSI interfaces.
