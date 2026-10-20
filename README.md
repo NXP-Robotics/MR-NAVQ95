@@ -1,6 +1,8 @@
 # NXP NavQ95 Vehicle Computer
 
-Welcome to the documentation for the NavQ95, a vehicle computer reference design designed around the NXP i.MX95 developed by NXP Mobile Robotics. Please note that this board is currently a Proof of Concept only and is considered not supported by NXP.
+Welcome to the documentation for the NavQ95, a vehicle computer reference design designed around the NXP i.MX95 developed by NXP Mobile Robotics. 
+This board is available from NXP and NXP Distributors worldwide as P/N MR-NAVQ95-KIT and is supported by the NXP Robotics SDK.
+Accessories for this board will also listed on https://www.NXP.com/MR-NavQ95-kit
 
 The NavQ95 features a single main board with a small form factor and is designed to merge a Vehicle Management Unit and a Vehicle Companion Computer into one unified, heterogeneous MCU/MPU device.
 
