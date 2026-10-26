@@ -122,12 +122,12 @@ I/O expanders, are shown too. Pin 1 is the square pad.
 <!-- overview:top -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/overview-top-dark.svg">
-  <img alt="MR-NAVQ95 top view with connector callouts" src="images/overview-top.svg" width="880" height="683">
+  <img alt="MR-NAVQ95 top view with connector callouts" src="images/overview-top.svg" width="880" height="722">
 </picture>
 <!-- /overview -->
 
 <!-- overview-list:top -->
-Not visible here: [J13 USB1](#main-other-connectors) (bottom view) · [J12 USB2](#main-other-connectors) (bottom view) · [J16 M.2 KEY B](#main-j16-m2-key-b) (bottom and front view) · [J7 DEBUG](#main-j7-debug) (front view) · [J6 MICROSD](#main-other-connectors) (front view) · [J11 RTC_BAT](#main-j11-rtc_bat) (not visible in the photos) · [SW2 BTMODE](#buttons-and-switches) (top side, under the M.2 Key M module)
+Bottom view: [J13 USB1](#main-other-connectors) · [J12 USB2](#main-other-connectors). Bottom and front view: [J16 M.2 KEY B](#main-j16-m2-key-b). Front view: [J7 DEBUG](#main-j7-debug) · [J6 MICROSD](#main-other-connectors). Not visible in the photos: [J11 RTC_BAT](#main-j11-rtc_bat).
 <!-- /overview-list -->
 
 > [!NOTE]
@@ -140,7 +140,7 @@ main board, are the debug header, the microSD slot, the SIM holder and the M.2 K
 <!-- overview:side -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/overview-side-dark.svg">
-  <img alt="MR-NAVQ95 front view: IO board connectors, debug header, microSD and audio jack" src="images/overview-side.svg" width="880" height="393">
+  <img alt="MR-NAVQ95 front view: IO board connectors, debug header, microSD and audio jack" src="images/overview-side.svg" width="880" height="368">
 </picture>
 <!-- /overview -->
 
@@ -151,7 +151,7 @@ DSICSI_B2B port can also drive an RPi DSI display. PORT1 to PORT10 are the switc
 <!-- overview:bottom -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/overview-bottom-dark.svg">
-  <img alt="MR-NAVQ95 bottom view with connector callouts" src="images/overview-bottom.svg" width="880" height="633">
+  <img alt="MR-NAVQ95 bottom view with connector callouts" src="images/overview-bottom.svg" width="880" height="636">
 </picture>
 <!-- /overview -->
 
@@ -225,7 +225,7 @@ Pin 1 (BATT +) is the lower pin on the board. Input 9 to 52 V, never more than 6
   <img alt="Main J2 CONSOLE pinout" src="images/main-J2.svg" width="606" height="333">
 </picture>
 
-Pins 2 to 5 follow the DS-009 TELEM layout for UART1: 2 = TX, 3 = RX, 4 = CTS, 5 = RTS. By default pin 4 carries UART2 RX and pin 5 UART2 TX (the M7 console). The same pads can be muxed to UART1 CTS and RTS instead, which gives UART1 full DS-009 flow control on this header. UART1 TX and UART2 TX are also the boot-mode straps BT_MODE0 and BT_MODE1. The same two UARTs are also on the USB console port J10 of the IO board, see the figure there.
+Pins 2 to 5 follow the DS-009 TELEM layout for UART1: 2 = TX, 3 = RX, 4 = CTS, 5 = RTS. By default pin 4 carries UART2 RX and pin 5 UART2 TX (the M7 console). The same pads can be muxed to UART1 CTS and RTS instead, which gives UART1 full DS-009 flow control on this header. UART1 TX and UART2 TX are also the boot-mode straps BT_MODE0 and BT_MODE1. The same two UARTs are also on the USB console port J1 of the IO board, see the figure there.
 
 > [!NOTE]
 > UART1 TX and UART2 TX are boot straps. Keep them idle while the board resets, or it may boot from the wrong source.
@@ -254,7 +254,7 @@ Standard Arm Cortex 10-pin layout (0.05 inch). Works with J-Link, PyOCD, CMSIS-D
 <!-- pinout:main/J1 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/main-J1-dark.svg">
-  <img alt="Main J1 M.2 KEY M pinout" src="images/main-J1.svg" width="704" height="652">
+  <img alt="Main J1 M.2 KEY M pinout" src="images/main-J1.svg" width="601" height="652">
 </picture>
 
 Only the pins below are connected. All other pins of the 75-pin socket are not used: PCIe lanes 1 to 3 (odd pins 5 to 37), SATA, DEVSLP, SUSCLK (pin 68, link resistor not fitted), MFG1/2 and the even pins 6 to 36. The 3.3 V comes through an NX20P5090 load switch that the I/O expander can switch off: 3.5 A continuous, 7 A peaks of 100 µs.
@@ -464,7 +464,7 @@ Plug contacts listed from tip to sleeve. The switch in the jack drives HP_JD: hi
   <img alt="IO J2 SPKR pinout" src="images/io-J2.svg" width="361" height="294">
 </picture>
 
-Bridge-tied class-D outputs of the WM8962B codec. The 4-pin JST-PH plug of the [Adafruit 1669 Stereo Enclosed Speaker Set](https://www.adafruit.com/product/1669) (2x 3 W, 4 Ω) fits directly. J25 next to it is the headset jack; the board also has two PDM microphones.
+Bridge-tied class-D outputs of the WM8962B codec. The 4-pin JST-PH plug of the [Adafruit 1669 Stereo Enclosed Speaker Set](https://www.adafruit.com/product/1669) (2x 3 W, 4 Ω) fits directly. J12 next to it is the headset jack; the board also has two PDM microphones.
 
 > [!CAUTION]
 > No GND on this connector. Each speaker goes between its − and + pin. Never connect a speaker pin to ground.
@@ -485,7 +485,7 @@ Bridge-tied class-D outputs of the WM8962B codec. The 4-pin JST-PH plug of the [
 | S1 BUZZER | IO | Buzzer enable DIP switch | 1-position DIP switch (CHS-01TA1), next to the ARM button | ON connects TPM6_CH1 to the buzzer FET. OFF disconnects the buzzer and the GPS buzzer pin, so PWM8 on the PWM header is a free channel. |
 | SW1 ARM | IO | Arm / safety switch with LED | Tactile switch | Wired in parallel with the safety-switch and LED pins of the GPS connector. |
 | S1 SMI | T1S | SMI routing switch | 1-position DIP switch (CHS-01TA1) | Leave as delivered. Only used when the SJA1110 runs without the host. |
-| S2 BOOT_OPT | T1S | SJA1110 boot option switch | 2-position DIP switch | Boot option of the SJA1110; see the SJA1110 documentation before changing it. |
+| S2 BOOT_OPT | T1S | SJA1110 boot option switch | 2-position DIP switch (CHS-02TA) | Boot option of the SJA1110; see the SJA1110 documentation before changing it. |
 <!-- /switches -->
 
 ## Camera expansion board
