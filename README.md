@@ -52,6 +52,9 @@ A range of software platforms can be deployed on the Cortex-M7 core. The followi
   - https://NuttX.apache.org/docs/latest/platforms/arm/imx9/boards/mr-navq95b/index.html
 - PX4 Autopilot (NuttX based)
   - https://px4.io/
+- Betaflight
+  - https://betaflight.com/
+  - [Betaflight on the MR-NAVQ95](betaflight.md): build, flash, connect and pinout
 
 ## Hardware Specifications
 

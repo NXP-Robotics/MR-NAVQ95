@@ -1,0 +1,91 @@
+# Betaflight pin use on the MR-NAVQ95, from the MR_NAVQ95 board configuration (betaflight/config,
+# configs/NXPI/MR_NAVQ95/config.h). The cards in images/betaflight and the blocks in betaflight.md
+# are generated from this file.
+
+meta:
+  title: Betaflight on the MR-NAVQ95
+  short_title: MR-NAVQ95 Betaflight
+  soc: i.MX95
+
+categories:
+  5v:   {label: "5 V",          fill: "#d1242f", dark: "#ff7b72"}
+  gnd:  {label: "GND",          fill: "#1f2328", dark: "#6e7681"}
+  uart: {label: "UART",         fill: "#0969da", dark: "#58a6ff"}
+  pwm:  {label: "Motor output", fill: "#9a6700", dark: "#d29922"}
+  gpio: {label: "GPIO / misc",  fill: "#6e7781", dark: "#8b949e"}
+
+boards:
+  io:   {name: "IO expansion board (NAVQ95-IO)", short: IO, tag: "IO board"}
+  main: {name: "Main board (NAVQ95-MAIN)", short: Main, tag: "main board"}
+
+connectors:
+  - ref: J9
+    board: io
+    name: PWM
+    cat: pwm
+    function: "Betaflight: 4 motors, CRSF receiver on LPUART6, ESC telemetry, beeper"
+    type: "JST-GH 1x10, side entry"
+    source: "SPF-97013_A1-IO.pdf p5; MR_NAVQ95 config.h"
+    level: "3.3 V logic"
+    path: []
+    layout: single
+    notes: >
+      DShot runs on FlexIO1; the TPM channel gives PWM when a PWM protocol is selected. The ESC
+      telemetry input is a receive only FlexIO UART (PIOUART0) for KISS ESC telemetry; the
+      telemetry wire of the ESC goes to pin 8. The receiver uses CRSF on
+      LPUART6: receiver TX to pin 5, receiver RX to pin 2. Pin 1 is the servo rail and is not
+      linked to the board 5 V (R60 not fitted), so the receiver needs 5 V from another
+      connector, for example the 5 V pin of the GPS or TELEM connector.
+    alerts:
+      - {type: note, text: "The beeper is the buzzer on the IO board and the buzzer pin of the GPS connector. Both work only while DIP switch S1 is ON."}
+    pins:
+      - {n: 1,  net: VDD_CON_PWM, cat: 5v,   label: "Servo rail"}
+      - {n: 2,  net: TPM3_CH0,    cat: uart, label: "CRSF TX",       pad: GPIO_IO04, alt: [LPUART6_TX]}
+      - {n: 3,  net: TPM3_CH1,    cat: pwm,  label: "Motor 1",       pad: GPIO_IO20, alt: [FLEXIO1_FLEXIO20]}
+      - {n: 4,  net: TPM3_CH3,    cat: pwm,  label: "Motor 2",       pad: GPIO_IO24, alt: [FLEXIO1_FLEXIO24]}
+      - {n: 5,  net: TPM4_CH0,    cat: uart, label: "CRSF RX",       pad: GPIO_IO05, alt: [LPUART6_RX]}
+      - {n: 6,  net: TPM4_CH1,    cat: pwm,  label: "Motor 3",       pad: GPIO_IO21, alt: [FLEXIO1_FLEXIO21]}
+      - {n: 7,  net: TPM5_CH0,    cat: pwm,  label: "Motor 4",       pad: GPIO_IO06, alt: [FLEXIO1_FLEXIO6]}
+      - {n: 8,  net: TPM5_CH1,    cat: uart, label: "ESC telemetry", pad: GPIO_IO22, alt: [FLEXIO1_FLEXIO22], note: "receive only, FlexIO UART PIOUART0"}
+      - {n: 9,  net: TPM6_CH1,    cat: gpio, label: "Beeper",        pad: GPIO_IO23, note: "buzzer, while S1 is ON"}
+      - {n: 10, net: GND,         cat: gnd}
+
+  - ref: J2
+    board: main
+    name: CONSOLE
+    cat: uart
+    function: "LPUART2: Betaflight MSP and CLI; UART1 stays the Linux console"
+    type: "JST-GH 1x6 (SM06B-GHS-TB)"
+    source: "SPF-97010_A1-MAIN.pdf p10; MR_NAVQ95 config.h"
+    level: "3.3 V logic"
+    path: []
+    layout: single
+    notes: >
+      LPUART2 carries MSP and the CLI at 115200 baud. The same UART is port 2 of the CP2105 on
+      the USB-C console port J1 of the IO board, so a USB-C cable is all a PC needs. Use either
+      J1 or this header, not both at the same time.
+    alerts:
+      - {type: note, text: "UART1 TX and UART2 TX are boot straps. Keep them idle while the board resets, or it may boot from the wrong source."}
+    pins:
+      - {n: 1, net: VDD_SYS_5V0,        cat: 5v,   label: "5V out"}
+      - {n: 2, net: UART1_TXD/BT_MODE0, cat: uart, label: "Linux TX",    pad: UART1_TXD}
+      - {n: 3, net: UART1_RXD,          cat: uart, label: "Linux RX",    pad: UART1_RXD}
+      - {n: 4, net: UART2_RXD,          cat: uart, label: "MSP / CLI RX", pad: UART2_RXD, alt: [LPUART2_RX]}
+      - {n: 5, net: UART2_TXD/BT_MODE1, cat: uart, label: "MSP / CLI TX", pad: UART2_TXD, alt: [LPUART2_TX], note: "boot strap BT_MODE1"}
+      - {n: 6, net: GND,                cat: gnd}
+
+  - ref: J1
+    board: io
+    name: CONSOLE
+    cat: uart
+    function: "USB-C console: CP2105 port 2 is LPUART2, Betaflight MSP and CLI"
+    type: "USB Type-C receptacle (USB 2.0 device)"
+    source: "SPF-97013_A1-IO.pdf p7; MR_NAVQ95 config.h"
+    path: [{name: CP2105, role: "USB to dual UART bridge"}]
+    layout: summary
+    section: true
+    notes: >
+      The CP2105 gives two serial ports on one USB-C connection. Port 1 (ECI) is the Linux
+      console, port 2 (SCI) is LPUART2, where Betaflight has MSP and the CLI. On a Linux PC port 2
+      is usually ttyUSB1 (`/dev/serial/by-id/...-if01-port0`); on Windows it is the second of the
+      two COM ports.
